@@ -1,0 +1,1408 @@
+{
+  "8": [
+    {
+      "question": "What kind of car does Evan drive?",
+      "answer": "Prius",
+      "response": "He drives a Toyota Prius.",
+      "category": "1",
+      "bleu_score": 0.1667,
+      "f1_score": 0.3333,
+      "llm_score": 1
+    },
+    {
+      "question": "What kinds of things did Evan have broken?",
+      "answer": "His old Prius and his new Prius.",
+      "response": "His knee and his Prius broke.",
+      "category": "1",
+      "bleu_score": 0.6192,
+      "f1_score": 0.6,
+      "llm_score": 1
+    },
+    {
+      "question": "Where has Evan been on roadtrips with his family?",
+      "answer": "Rockies, Jasper",
+      "response": "The Rocky Mountains and Jasper, Canada.",
+      "category": "1",
+      "bleu_score": 0.25,
+      "f1_score": 0.25,
+      "llm_score": 1
+    },
+    {
+      "question": "How many Prius has Evan owned?",
+      "answer": "two",
+      "response": "He has owned two Priuses.",
+      "category": "1",
+      "bleu_score": 0.1667,
+      "f1_score": 0.3333,
+      "llm_score": 1
+    },
+    {
+      "question": "Which hobby did Sam take up in May 2023?",
+      "answer": "painting",
+      "response": "He started watercolor painting in May.",
+      "category": "2",
+      "bleu_score": 0.1429,
+      "f1_score": 0.2857,
+      "llm_score": 1
+    },
+    {
+      "question": "Which country was Evan visiting in May 2023?",
+      "answer": "Canada",
+      "response": "He was visiting Canada in May.",
+      "category": "3",
+      "bleu_score": 0.1429,
+      "f1_score": 0.2857,
+      "llm_score": 1
+    },
+    {
+      "question": "How many roadtrips did Evan take in May 2023?",
+      "answer": "two",
+      "response": "He took one roadtrip in May.",
+      "category": "1",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What new hobbies did Sam consider trying?",
+      "answer": "Painting, kayaking, hiking, cooking, running",
+      "response": "Painting, kayaking, and hiking again.",
+      "category": "1",
+      "bleu_score": 0.5516,
+      "f1_score": 0.6,
+      "llm_score": 1
+    },
+    {
+      "question": "What hobby did Evan start practicing a few years ago that he enjoys?",
+      "answer": "Watercolor painting",
+      "response": "He started watercolor painting years ago",
+      "category": "1",
+      "bleu_score": 0.3333,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Evan go to Jasper with his family?",
+      "answer": "weekend before May 24, 2023",
+      "response": "Weekend of May 20\u201321, 2023.",
+      "category": "2",
+      "bleu_score": 0.5714,
+      "f1_score": 0.6,
+      "llm_score": 1
+    },
+    {
+      "question": "Which type of vacation would Evan prefer with his family, walking tours in metropolitan cities or camping trip in the outdoors?",
+      "answer": "camping trip in the outdoors",
+      "response": "Camping trip in the outdoors",
+      "category": "3",
+      "bleu_score": 1.0,
+      "f1_score": 1.0,
+      "llm_score": 1
+    },
+    {
+      "question": "What health issue did Sam face that motivated him to change his lifestyle?",
+      "answer": "Weight problem",
+      "response": "Doctor warned weight is serious risk.",
+      "category": "1",
+      "bleu_score": 0.1429,
+      "f1_score": 0.25,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Sam first go to the doctor and find out he had a weight problem?",
+      "answer": "A few days before May 24, 2023.",
+      "response": "After Monday check-up: October 2, 2023.",
+      "category": "2",
+      "bleu_score": 0.3333,
+      "f1_score": 0.1538,
+      "llm_score": 0
+    },
+    {
+      "question": "When did Evan have his sudden heart palpitation incident that really shocked him up?",
+      "answer": "first week of June 2023",
+      "response": "The week before June 6, 2023",
+      "category": "2",
+      "bleu_score": 0.4286,
+      "f1_score": 0.5455,
+      "llm_score": 1
+    },
+    {
+      "question": "What is Evan's favorite food?",
+      "answer": "Ginger snaps",
+      "response": "Evan's favorite food is ginger snaps.",
+      "category": "1",
+      "bleu_score": 0.25,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "What kind of unhealthy snacks does Sam enjoy eating?",
+      "answer": "soda, candy",
+      "response": "Soda and candy \u2014 sugary snacks",
+      "category": "1",
+      "bleu_score": 0.3333,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "What recurring issue frustrates Sam at the grocery store?",
+      "answer": "Malfunctioning self-checkout machines.",
+      "response": "Broken self-checkout machines at the store.",
+      "category": "1",
+      "bleu_score": 0.4286,
+      "f1_score": 0.4444,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Sam's friends mock him for being overweight?",
+      "answer": "Friday before 27 July 2023",
+      "response": "Mocked him on July 21, 2023.",
+      "category": "2",
+      "bleu_score": 0.25,
+      "f1_score": 0.3636,
+      "llm_score": 1
+    },
+    {
+      "question": "What kind of healthy food suggestions has Evan given to Sam?",
+      "answer": "flavored seltzer water, dark chocolate with high cocoa content, air-popped popcorn and fruit, veggies, healthy sandwich snacks, energy balls, grilled chicken salad with avocado",
+      "response": "Flavored seltzer, dark chocolate, energy balls.",
+      "category": "1",
+      "bleu_score": 0.0862,
+      "f1_score": 0.4138,
+      "llm_score": 1
+    },
+    {
+      "question": "Considering their conversations and personal growth, what advice might Evan and Sam give to someone facing a major life transition or challenge?",
+      "answer": "Evan and Sam would likely advise embracing small, consistent changes\u200b\u200b, finding stress-relieving activities like hiking\u200b\u200b, painting, and road trips\u200b\u200b, and the importance of friendship and support in navigating challenges\u200b\u200b.",
+      "response": "Take small steps; seek support; persevere.",
+      "category": "3",
+      "bleu_score": 0.0185,
+      "f1_score": 0.0625,
+      "llm_score": 1
+    },
+    {
+      "question": "In light of the health and dietary changes discussed, what would be an appropriate gift for both Evan and Sam to encourage their healthy lifestyles?",
+      "answer": "a cookbook with healthy recipes or a subscription to a healthy meal delivery service.",
+      "response": "Yoga mat and healthy snack basket.",
+      "category": "3",
+      "bleu_score": 0.0911,
+      "f1_score": 0.1176,
+      "llm_score": 0
+    },
+    {
+      "question": "How does Evan describe the woman and his feelings for her that he met in Canada?",
+      "answer": "He says she's cool, incredible, like something out of a movie, and that he feels alive around her. Every moment with her is fun and energetic, also Evan feels really lucky to have someone who gets him.",
+      "response": "She's incredible; I loved her instantly.",
+      "category": "1",
+      "bleu_score": 0.0114,
+      "f1_score": 0.1026,
+      "llm_score": 1
+    },
+    {
+      "question": "When Evan did meet his future wife?",
+      "answer": "week before August 7, 2023.",
+      "response": "Late July or early August 2023",
+      "category": "2",
+      "bleu_score": 0.2822,
+      "f1_score": 0.3636,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Sam start working out at the gym?",
+      "answer": "July 28, 2023",
+      "response": "He started July 28, 2023.",
+      "category": "2",
+      "bleu_score": 0.5714,
+      "f1_score": 0.75,
+      "llm_score": 1
+    },
+    {
+      "question": "What significant event happened in Sam's life towards the end of summer 2023?",
+      "answer": "He fell in love with a Canadian woman",
+      "response": "He began focusing on his health.",
+      "category": "2",
+      "bleu_score": 0.1238,
+      "f1_score": 0.1429,
+      "llm_score": 0
+    },
+    {
+      "question": "Which year did Evan start taking care of his health seriously?",
+      "answer": "2021",
+      "response": "Evan began caring for health in 2021.",
+      "category": "2",
+      "bleu_score": 0.125,
+      "f1_score": 0.25,
+      "llm_score": 1
+    },
+    {
+      "question": "What motivates Evan to take care of his health?",
+      "answer": "family, fitness tracker, thirst for adventure on interesting hikes",
+      "response": "His family, especially his children.",
+      "category": "1",
+      "bleu_score": 0.1613,
+      "f1_score": 0.1538,
+      "llm_score": 1
+    },
+    {
+      "question": "What electronic device could Evan gift Sam to help him keep up with his fitness goals?",
+      "answer": "fitness tracker",
+      "response": "A fitness-tracking smartwatch to track progress",
+      "category": "3",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 1
+    },
+    {
+      "question": "What kind of writing does Sam do to relax and cope with his health issues?",
+      "answer": "journalling, creative writing",
+      "response": "Writing in journal and creative writing",
+      "category": "1",
+      "bleu_score": 0.3333,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "Who did Evan meet on his trip to Canada, and who did he come back from Canada with?",
+      "answer": "Evan met the woman he fell in love with and returned with her.",
+      "response": "Met a Canadian woman; returned together.",
+      "category": "1",
+      "bleu_score": 0.2362,
+      "f1_score": 0.2222,
+      "llm_score": 1
+    },
+    {
+      "question": "When Evan get back from a vacation with his SO?",
+      "answer": "August 13, 2023",
+      "response": "He returned around August 13, 2023.",
+      "category": "2",
+      "bleu_score": 0.5,
+      "f1_score": 0.6667,
+      "llm_score": 1
+    },
+    {
+      "question": "How might Evan and Sam's experiences with health and lifestyle changes influence their approach to stress and challenges?",
+      "answer": "Their experiences likely lead them to view challenges as opportunities for growth and change. They both have embraced healthier lifestyles, indicating a proactive approach to managing stress and challenges.",
+      "response": "Emphasize small wins, hobbies, patient persistence.",
+      "category": "3",
+      "bleu_score": 0.0173,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What recurring frustration does Evan experience?",
+      "answer": "Evan consistently misplaces his keys every week.",
+      "response": "Frustrated when new things break quickly.",
+      "category": "1",
+      "bleu_score": 0.1238,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What is the recurring dream that Sam keeps having?",
+      "answer": "he's flying over a cityscape.",
+      "response": "He dreams of flying over skyscrapers.",
+      "category": "1",
+      "bleu_score": 0.5714,
+      "f1_score": 0.3636,
+      "llm_score": 1
+    },
+    {
+      "question": "What accidents has Evan's son faced lately?",
+      "answer": "injured at a soccer game, fell off his bike",
+      "response": "Bike fall and soccer-related ankle injury",
+      "category": "1",
+      "bleu_score": 0.0856,
+      "f1_score": 0.1333,
+      "llm_score": 1
+    },
+    {
+      "question": "When was Evan's son injured at soccer?",
+      "answer": "Saturday before August 15, 2023.",
+      "response": "On Saturday, August 12, 2023.",
+      "category": "2",
+      "bleu_score": 0.625,
+      "f1_score": 0.6,
+      "llm_score": 1
+    },
+    {
+      "question": "What kind of foods or recipes has Sam recommended to Evan?",
+      "answer": "grilled vegetables, grilled chicken and veggie stir-fry, poutine",
+      "response": "Grilled chicken and roasted vegetables recipes.",
+      "category": "1",
+      "bleu_score": 0.3723,
+      "f1_score": 0.6154,
+      "llm_score": 1
+    },
+    {
+      "question": "What kind of healthy meals did Sam start eating after getting a health scare?",
+      "answer": "salad, grilled salmon and vegetables, grilled chicken and veggie stir-fry, Beef Merlot, fruit bowl, smoothie bowl",
+      "response": "Grilled salmon and roasted vegetables",
+      "category": "1",
+      "bleu_score": 0.0326,
+      "f1_score": 0.4444,
+      "llm_score": 1
+    },
+    {
+      "question": "What role does nature and the outdoors play in Evan and Sam's mental well-being?",
+      "answer": "Nature and outdoor activities seem to be significant stress relievers and sources of joy for both Evan and Sam. These activities likely contribute positively to their mental well-being.",
+      "response": "Nature calms, centers, and restores them.",
+      "category": "3",
+      "bleu_score": 0.0323,
+      "f1_score": 0.1333,
+      "llm_score": 1
+    },
+    {
+      "question": "How many months lapsed between Sam's first and second doctor's appointment?",
+      "answer": "three months",
+      "response": "Approximately five months elapsed between appointments",
+      "category": "2",
+      "bleu_score": 0.1667,
+      "f1_score": 0.25,
+      "llm_score": 0
+    },
+    {
+      "question": "When did Evan start taking painting classes?",
+      "answer": "Few days before 19 August, 2023.",
+      "response": "Few days before August 19, 2023",
+      "category": "2",
+      "bleu_score": 0.8669,
+      "f1_score": 1.0,
+      "llm_score": 1
+    },
+    {
+      "question": "Which classes did Evan join in mid-August 2023?",
+      "answer": "painting classes",
+      "response": "Painting classes focused on watercolor.",
+      "category": "2",
+      "bleu_score": 0.3333,
+      "f1_score": 0.5714,
+      "llm_score": 1
+    },
+    {
+      "question": "How did Evan get into painting?",
+      "answer": "His friend got him into it by gifting him a painting and giving him some advice. The painting inspired Evan.",
+      "response": "A friend gifted him a painting.",
+      "category": "1",
+      "bleu_score": 0.0838,
+      "f1_score": 0.3636,
+      "llm_score": 1
+    },
+    {
+      "question": "How often does Sam get health checkups?",
+      "answer": "every three months",
+      "response": "Infrequently; he hasn't seen doctor recently.",
+      "category": "3",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What kind of subjects does Evan enjoy painting?",
+      "answer": "nature landscapes, portraits, abstract minimalism",
+      "response": "Landscapes and nature scenes, like sunsets",
+      "category": "1",
+      "bleu_score": 0.4286,
+      "f1_score": 0.3636,
+      "llm_score": 1
+    },
+    {
+      "question": "Which places in Canada was Evan visiting in July 2023?",
+      "answer": "Banff, Rocky Mountains",
+      "response": "Banff and the Rocky Mountains",
+      "category": "2",
+      "bleu_score": 0.6,
+      "f1_score": 0.75,
+      "llm_score": 1
+    },
+    {
+      "question": "How do Evan and Sam use creative outlets to cope with life's challenges?",
+      "answer": "Evan and Sam use creative activities, like painting and writing, as therapeutic tools to express themselves and cope with stress.",
+      "response": "They journal, paint, hike, and kayak.",
+      "category": "3",
+      "bleu_score": 0.109,
+      "f1_score": 0.0833,
+      "llm_score": 0
+    },
+    {
+      "question": "When did Evan go skiing in Banff?",
+      "answer": "July 2023",
+      "response": "He went skiing in July 2023.",
+      "category": "2",
+      "bleu_score": 0.2857,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "What new diet and lifestyle change did Sam adopt over time?",
+      "answer": "Healthy eating, exercise routine, running, hiking",
+      "response": "Joined Weight Watchers; adopted healthier eating.",
+      "category": "1",
+      "bleu_score": 0.1103,
+      "f1_score": 0.1667,
+      "llm_score": 1
+    },
+    {
+      "question": "Who was injured in Evan's family?",
+      "answer": "Evan's son and Evan himself",
+      "response": "Evan's son injured his ankle.",
+      "category": "1",
+      "bleu_score": 0.4286,
+      "f1_score": 0.4,
+      "llm_score": 0
+    },
+    {
+      "question": "What kind of hobbies does Evan pursue?",
+      "answer": "painting, hiking, reading books, biking, skiing, snowboarding, ice skating, swimming, camping, kayaking",
+      "response": "Watercolor painting, cooking, fitness, driving.",
+      "category": "1",
+      "bleu_score": 0.1172,
+      "f1_score": 0.1176,
+      "llm_score": 0
+    },
+    {
+      "question": "What challenges does Sam face in his quest for a healthier lifestyle, and how does he address them?",
+      "answer": "Sam faces challenges like maintaining motivation and making dietary changes. He addresses them by enrolling in cooking classes and seeking support from friends like Evan.",
+      "response": "Weight, cravings, pressure; diet, exercise, coaching",
+      "category": "3",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 1
+    },
+    {
+      "question": "Which activity do Evan and Sam plan on doing together during September 2023?",
+      "answer": "painting",
+      "response": "They planned to paint next Saturday.",
+      "category": "2",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Evan and Sam decide to paint together?",
+      "answer": "Saturday after 11 September, 2023.",
+      "response": "Decided on September 11, 2023.",
+      "category": "2",
+      "bleu_score": 0.7143,
+      "f1_score": 0.6,
+      "llm_score": 0
+    },
+    {
+      "question": "What personal health incidents does Evan face in 2023?",
+      "answer": "heart palpitations, twisted ankle, twisted ankle",
+      "response": "Heart palpitation; knee injuries; hospital scare.",
+      "category": "1",
+      "bleu_score": 0.1111,
+      "f1_score": 0.2,
+      "llm_score": 0
+    },
+    {
+      "question": "What recurring adventure does Evan have with strangers?",
+      "answer": "Helping lost tourists and experiencing unexpected adventures in the city.",
+      "response": "Attending painting classes with like-minded strangers",
+      "category": "1",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What is Sam's persistent problem with his phone?",
+      "answer": "His new phone malfunctioning, particularly with the navigation app.",
+      "response": "His phone's navigation app keeps malfunctioning.",
+      "category": "1",
+      "bleu_score": 0.5155,
+      "f1_score": 0.5333,
+      "llm_score": 1
+    },
+    {
+      "question": "Which US state was Sam travelling in during October 2023?",
+      "answer": "California",
+      "response": "Unknown \u2014 no memory of October travel",
+      "category": "3",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "When did Evan start lifting weights?",
+      "answer": "October 2022",
+      "response": "About October 2022, one year earlier",
+      "category": "2",
+      "bleu_score": 0.2857,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Sam and his friend decide to try kayaking?",
+      "answer": "October 14, 2023",
+      "response": "They decided on October 14, 2023.",
+      "category": "2",
+      "bleu_score": 0.5,
+      "f1_score": 0.6667,
+      "llm_score": 1
+    },
+    {
+      "question": "Which new activity does Sam take up in October 2023?",
+      "answer": "kayaking",
+      "response": "He begins a new health routine.",
+      "category": "2",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What kind of stress was Sam dealing with in October 2023?",
+      "answer": "work-related stress",
+      "response": "Work stress, feeling guilty and unmotivated",
+      "category": "2",
+      "bleu_score": 0.1429,
+      "f1_score": 0.25,
+      "llm_score": 1
+    },
+    {
+      "question": "What health scares did Sam and Evan experience?",
+      "answer": "Sam faced a health scare with stomach pains that turned out to be gastritis, prompting him to rethink his health habits. Evan, on the other hand, experienced two separate incidents: a sudden heart palpitation incident and a different event involving a misunderstanding during a medical check-up. These experiences have significantly influenced their perspectives on health and well-being.",
+      "response": "Sam: weight-related health scare; Evan: palpitations.",
+      "category": "1",
+      "bleu_score": 0.0027,
+      "f1_score": 0.037,
+      "llm_score": 0
+    },
+    {
+      "question": "When was Sam in the ER?",
+      "answer": "weekend before 17 October, 2023.",
+      "response": "Unknown \u2014 no memory of Sam's ER.",
+      "category": "2",
+      "bleu_score": 0.1111,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "Which ailment does Sam have to face due to his weight?",
+      "answer": "gastritis",
+      "response": "No specific ailment is mentioned.",
+      "category": "1",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "Does Evan live close to a beach or mountains?",
+      "answer": "beach",
+      "response": "He lives close to a beach.",
+      "category": "3",
+      "bleu_score": 0.1429,
+      "f1_score": 0.2857,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Evan lose his job?",
+      "answer": "end of October 2023",
+      "response": "Lost his job in October 2023.",
+      "category": "2",
+      "bleu_score": 0.2857,
+      "f1_score": 0.4,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Evan and Sam planned a trip to the beach together?",
+      "answer": "December, 2023",
+      "response": "Planned November 9, 2023 for December.",
+      "category": "2",
+      "bleu_score": 0.375,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "What was Sam doing on December 4, 2023?",
+      "answer": "Attending a Weight Watchers meeting",
+      "response": "Attending a Weight Watchers meeting.",
+      "category": "2",
+      "bleu_score": 0.8333,
+      "f1_score": 1.0,
+      "llm_score": 1
+    },
+    {
+      "question": "Which two significant life events occur in Evan's life in December 2023 with his partner?",
+      "answer": "his partner gets pregnant and they get married",
+      "response": "They got married; partner became pregnant.",
+      "category": "1",
+      "bleu_score": 0.5,
+      "f1_score": 0.4286,
+      "llm_score": 1
+    },
+    {
+      "question": "How long did Evan and his partner date before getting married?",
+      "answer": "four months",
+      "response": "Roughly four months together before marriage",
+      "category": "2",
+      "bleu_score": 0.3333,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "Which major holiday season conincides with Evan's wedding?",
+      "answer": "Christmas",
+      "response": "Around the Christmas holiday season.",
+      "category": "3",
+      "bleu_score": 0.1667,
+      "f1_score": 0.3333,
+      "llm_score": 1
+    },
+    {
+      "question": "Which activity did Sam resume in December 2023 after a long time?",
+      "answer": "hiking",
+      "response": "Sam returned to hiking after hiatus.",
+      "category": "1",
+      "bleu_score": 0.1429,
+      "f1_score": 0.2857,
+      "llm_score": 1
+    },
+    {
+      "question": "When is Evan planning a big family reunion?",
+      "answer": "Summer 2024",
+      "response": "He's planning it for summer 2024.",
+      "category": "2",
+      "bleu_score": 0.25,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Evan's son fall off his bike?",
+      "answer": "Thursday before December 17, 2023.",
+      "response": "He fell on December 12, 2023.",
+      "category": "2",
+      "bleu_score": 0.5,
+      "f1_score": 0.3636,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Evan announce his marriage to his extended family?",
+      "answer": "January 5, 2024",
+      "response": "Announced to family Jan 5 2024",
+      "category": "2",
+      "bleu_score": 0.3333,
+      "f1_score": 0.4444,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Evan finish the painting that's hanging in the exhibit?",
+      "answer": "few days before 17 December, 2023.",
+      "response": "Finished a few days before 12/17/2023.",
+      "category": "2",
+      "bleu_score": 0.4954,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "How does Evan spend his time with his bride after the wedding?",
+      "answer": "family get-together, honeymoon in Canada to see snowy landscapes, ski, taste local cuisine and do some snowshoeing",
+      "response": "Honeymooning in Canada: skiing and exploring",
+      "category": "1",
+      "bleu_score": 0.0669,
+      "f1_score": 0.1739,
+      "llm_score": 1
+    },
+    {
+      "question": "Who did Evan tell about his marriage?",
+      "answer": "To Sam, to his friends from work, and to his and his wife's families.",
+      "response": "He told their extended family.",
+      "category": "1",
+      "bleu_score": 0.0226,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "When will Evan and his partner have their honeymoon in Canada?",
+      "answer": "February 2024",
+      "response": "They'll honeymoon in February 2024.",
+      "category": "2",
+      "bleu_score": 0.2857,
+      "f1_score": 0.5714,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Evan have a drunken night with his friends?",
+      "answer": "January 9, 2023",
+      "response": "Drunken night was January 9, 2024.",
+      "category": "2",
+      "bleu_score": 0.375,
+      "f1_score": 0.4444,
+      "llm_score": 0
+    },
+    {
+      "question": "What is a stress reliever for Evan?",
+      "answer": "Drawing, traveling, places with a beautiful view, yoga, sunsets or something comfortable for Evan",
+      "response": "Painting helps him relax and de-stress.",
+      "category": "1",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 1
+    },
+    {
+      "question": "What is a stress reliever for Sam?",
+      "answer": "Unhealthy snacks, sweets, yoga, places with beautiful views",
+      "response": "Journaling and creative writing help Sam.",
+      "category": "1",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What type of car did Evan get after his old Prius broke down?",
+      "answer": "new Prius",
+      "response": "He bought another new Prius.",
+      "category": "4",
+      "bleu_score": 0.3333,
+      "f1_score": 0.5714,
+      "llm_score": 1
+    },
+    {
+      "question": "How did Evan get into watercolor painting?",
+      "answer": "friend's advice",
+      "response": "A friend gave him a painting.",
+      "category": "4",
+      "bleu_score": 0.1429,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What did Evan start doing a few years back as a stress-buster?",
+      "answer": "watercolor painting",
+      "response": "He began watercolor painting to relax",
+      "category": "4",
+      "bleu_score": 0.3333,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "What advice did Evan give Sam about finding a passion?",
+      "answer": "keep trying new things until something sparks excitement",
+      "response": "Try new things until something sparks",
+      "category": "4",
+      "bleu_score": 0.5971,
+      "f1_score": 0.7143,
+      "llm_score": 1
+    },
+    {
+      "question": "Where did Evan take his family for a road trip on 24 May, 2023?",
+      "answer": "Jasper",
+      "response": "To Jasper via Icefields Parkway",
+      "category": "4",
+      "bleu_score": 0.2,
+      "f1_score": 0.3333,
+      "llm_score": 1
+    },
+    {
+      "question": "What did Evan find relaxing about his road trip to Jasper?",
+      "answer": "fresh air, peacefulness, cozy cabin surrounded by mountains and forests",
+      "response": "Fresh air, peacefulness, cozy cabin retreat.",
+      "category": "4",
+      "bleu_score": 0.5573,
+      "f1_score": 0.625,
+      "llm_score": 1
+    },
+    {
+      "question": "What habit is Sam trying to change in terms of diet?",
+      "answer": "consuming soda and candy",
+      "response": "Cutting down on soda and candy",
+      "category": "4",
+      "bleu_score": 0.5,
+      "f1_score": 0.6,
+      "llm_score": 1
+    },
+    {
+      "question": "What new suggestion did Evan give to Sam regarding his soda and candy consumption?",
+      "answer": "try flavored seltzer water and dark chocolate with high cocoa content",
+      "response": "Swap soda for seltzer; dark chocolate.",
+      "category": "4",
+      "bleu_score": 0.2577,
+      "f1_score": 0.2353,
+      "llm_score": 1
+    },
+    {
+      "question": "What did Sam agree to try instead of soda and candy?",
+      "answer": "flavored seltzer water and dark chocolate with high cocoa content",
+      "response": "Flavored seltzer water and dark chocolate",
+      "category": "4",
+      "bleu_score": 0.5134,
+      "f1_score": 0.75,
+      "llm_score": 1
+    },
+    {
+      "question": "What frustrating issue did Sam face at the supermarket?",
+      "answer": "broken self-checkout machines",
+      "response": "Self-checkout machines were all broken.",
+      "category": "4",
+      "bleu_score": 0.5,
+      "f1_score": 0.75,
+      "llm_score": 1
+    },
+    {
+      "question": "What novel is Evan reading that he finds gripping?",
+      "answer": "The Great Gatsby",
+      "response": "He's reading The Great Gatsby.",
+      "category": "4",
+      "bleu_score": 0.4286,
+      "f1_score": 0.75,
+      "llm_score": 1
+    },
+    {
+      "question": "What kind of water does Evan suggest Sam try as an alternative to soda?",
+      "answer": "Flavored seltzer water",
+      "response": "Flavored seltzer water, bubbly and unsweetened",
+      "category": "4",
+      "bleu_score": 0.4286,
+      "f1_score": 0.6667,
+      "llm_score": 1
+    },
+    {
+      "question": "What does the smartwatch help Evan with?",
+      "answer": "tracks progress and serves as a constant reminder to keep going",
+      "response": "Tracks his progress and motivates him",
+      "category": "4",
+      "bleu_score": 0.2173,
+      "f1_score": 0.3529,
+      "llm_score": 1
+    },
+    {
+      "question": "What does the bonsai tree symbolize for Evan?",
+      "answer": "strength and resilience",
+      "response": "It symbolizes strength and resilience.",
+      "category": "4",
+      "bleu_score": 0.5,
+      "f1_score": 0.75,
+      "llm_score": 1
+    },
+    {
+      "question": "Why did Evan decide to get the bonsai tree?",
+      "answer": "motivates him to keep going through tough times",
+      "response": "Because it symbolizes strength and resilience.",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 1
+    },
+    {
+      "question": "According to Sam, what is more important than perfection?",
+      "answer": "progress",
+      "response": "Progress is more important than perfection.",
+      "category": "4",
+      "bleu_score": 0.1429,
+      "f1_score": 0.2857,
+      "llm_score": 1
+    },
+    {
+      "question": "What did Evan suggest Sam to check out for insights into his dream?",
+      "answer": "dream interpretation book",
+      "response": "He suggested a dream interpretation book.",
+      "category": "4",
+      "bleu_score": 0.4286,
+      "f1_score": 0.6667,
+      "llm_score": 1
+    },
+    {
+      "question": "What did Evan mention he had been searching for fruitlessly for half an hour?",
+      "answer": "his keys",
+      "response": "He'd been searching for his keys.",
+      "category": "4",
+      "bleu_score": 0.25,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "What class is Sam taking to learn how to make healthier meals?",
+      "answer": "cooking class",
+      "response": "He's taking a cooking class.",
+      "category": "4",
+      "bleu_score": 0.2857,
+      "f1_score": 0.5714,
+      "llm_score": 1
+    },
+    {
+      "question": "What dish did Sam make on 18 August, 2023 that turned out flavorful?",
+      "answer": "grilled dish with salmon and vegetables",
+      "response": "Flavorful grilled chicken and vegetables.",
+      "category": "4",
+      "bleu_score": 0.5,
+      "f1_score": 0.5455,
+      "llm_score": 0
+    },
+    {
+      "question": "What kind of recipe did Evan request from Sam on 19 August, 2023?",
+      "answer": "recipes with more vegetables",
+      "response": "Grilled chicken and vegetable stir-fry",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 1
+    },
+    {
+      "question": "What food did Sam share a photo of on 19 August, 2023?",
+      "answer": "bowl of spinach, avocado, and strawberries",
+      "response": "A bowl of spinach, avocado, strawberries",
+      "category": "4",
+      "bleu_score": 0.875,
+      "f1_score": 0.8333,
+      "llm_score": 1
+    },
+    {
+      "question": "What type of painting classes did Evan start taking in 2023?",
+      "answer": "watercolor painting classes",
+      "response": "Watercolor painting classes focused on nature",
+      "category": "4",
+      "bleu_score": 0.5,
+      "f1_score": 0.6667,
+      "llm_score": 1
+    },
+    {
+      "question": "What did Evan start painting years ago due to being inspired by a friend's gift?",
+      "answer": "forest scene",
+      "response": "He started watercolor painting years ago.",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What nature concept do watercolor painting classes emphasize according to Evan?",
+      "answer": "observing nature and painting what is seen",
+      "response": "Observe nature; paint what you see",
+      "category": "4",
+      "bleu_score": 0.2857,
+      "f1_score": 0.1538,
+      "llm_score": 1
+    },
+    {
+      "question": "What type of landscapes does Evan love painting the most?",
+      "answer": "sunsets over the ocean",
+      "response": "He loves painting landscapes, especially nature.",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What fun activity did Evan mention doing in July 2023?",
+      "answer": "skiing",
+      "response": "Took a road trip to Rockies.",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What injury did Evan suffer from in August 2023?",
+      "answer": "Twisted knee",
+      "response": "He twisted his knee (knee injury)",
+      "category": "4",
+      "bleu_score": 0.25,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "What sports activity has Evan been doing to stay active while dealing with the knee injury?",
+      "answer": "Swimming",
+      "response": "He's been swimming to stay active.",
+      "category": "4",
+      "bleu_score": 0.125,
+      "f1_score": 0.2857,
+      "llm_score": 1
+    },
+    {
+      "question": "What suggestion did Sam give to Evan to help with his knee issue?",
+      "answer": "Consider low-impact exercises or physical therapy",
+      "response": "Consider physical therapy and low-impact exercise",
+      "category": "4",
+      "bleu_score": 0.6667,
+      "f1_score": 0.6667,
+      "llm_score": 1
+    },
+    {
+      "question": "What did Evan suggest Sam try as a calming hobby?",
+      "answer": "Painting",
+      "response": "He suggested Sam try painting.",
+      "category": "4",
+      "bleu_score": 0.1667,
+      "f1_score": 0.3333,
+      "llm_score": 1
+    },
+    {
+      "question": "What did Evan recommend Sam acquire to get started with painting?",
+      "answer": "Acrylic paints, brushes, canvas/paper, palette",
+      "response": "Acrylic paints, brushes, canvas/paper, palette",
+      "category": "4",
+      "bleu_score": 1.0,
+      "f1_score": 1.0,
+      "llm_score": 1
+    },
+    {
+      "question": "What activity does Evan do to keep himself busy while healing his knee?",
+      "answer": "Watercolor painting",
+      "response": "He does physical therapy and exercises.",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What painting did Evan share with Sam in October?",
+      "answer": "a cactus in the desert",
+      "response": "Painting of a person on cliff",
+      "category": "4",
+      "bleu_score": 0.1667,
+      "f1_score": 0.1818,
+      "llm_score": 0
+    },
+    {
+      "question": "What kind of writing does Sam enjoy as a form of expression?",
+      "answer": "creative writing",
+      "response": "Journaling and creative writing about feelings.",
+      "category": "4",
+      "bleu_score": 0.2857,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "What electronics issue has been frustrating Sam lately?",
+      "answer": "malfunctioning navigation app on the new phone",
+      "response": "Phone's navigation app keeps malfunctioning.",
+      "category": "4",
+      "bleu_score": 0.5714,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "What activity did Evan start one year ago?",
+      "answer": "lifting weights",
+      "response": "Started lifting weights one year ago.",
+      "category": "4",
+      "bleu_score": 0.2857,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "What advice did Evan give to Sam to avoid injuries while starting weightlifting?",
+      "answer": "Find a trainer",
+      "response": "Use proper form; find a trainer.",
+      "category": "4",
+      "bleu_score": 0.375,
+      "f1_score": 0.6667,
+      "llm_score": 1
+    },
+    {
+      "question": "Where did Sam and his mate plan to try kayaking?",
+      "answer": "Lake Tahoe",
+      "response": "Planned kayaking on Lake Tahoe.",
+      "category": "4",
+      "bleu_score": 0.3333,
+      "f1_score": 0.5714,
+      "llm_score": 1
+    },
+    {
+      "question": "What digestive issue did Sam experience lately?",
+      "answer": "Gastritis",
+      "response": "He was diagnosed with gastritis.",
+      "category": "4",
+      "bleu_score": 0.1667,
+      "f1_score": 0.3333,
+      "llm_score": 1
+    },
+    {
+      "question": "What adventurous theme is emerging in Evan's life as mentioned by Sam?",
+      "answer": "helping lost tourists",
+      "response": "Hiking, kayaking, and road trips.",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What does Evan mention about his progress at the gym to Sam?",
+      "answer": "gaining strength",
+      "response": "Started lifting one year ago\u2014seeing gains.",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 1
+    },
+    {
+      "question": "How did Evan start his transformation journey two years ago?",
+      "answer": "Changed his diet and started walking regularly",
+      "response": "Changed his diet and started walking.",
+      "category": "4",
+      "bleu_score": 0.8571,
+      "f1_score": 0.9231,
+      "llm_score": 1
+    },
+    {
+      "question": "What gift did Evan receive from a close friend?",
+      "answer": "1968 Kustom K-200A vintage guitar",
+      "response": "A 1968 Kustom K-200A guitar.",
+      "category": "4",
+      "bleu_score": 0.6667,
+      "f1_score": 0.8,
+      "llm_score": 1
+    },
+    {
+      "question": "Why had Evan been going through a tough time lately?",
+      "answer": "Lost their job due to downsizing",
+      "response": "He lost his job last month.",
+      "category": "4",
+      "bleu_score": 0.2857,
+      "f1_score": 0.3333,
+      "llm_score": 1
+    },
+    {
+      "question": "How does Evan describe the island he grew up on?",
+      "answer": "A happy place",
+      "response": "Serene, calming little slice of paradise",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 1
+    },
+    {
+      "question": "What was the main reason for Evan's frustration with his new Prius breaking down?",
+      "answer": "He relied on it for his active lifestyle and road trips",
+      "response": "He counted on it for reliability.",
+      "category": "4",
+      "bleu_score": 0.3227,
+      "f1_score": 0.4706,
+      "llm_score": 1
+    },
+    {
+      "question": "How did Sam suggest Evan view the setback with his broken Prius?",
+      "answer": "As a chance to explore other ways of staying active and traveling",
+      "response": "See it as new opportunities.",
+      "category": "4",
+      "bleu_score": 0.0613,
+      "f1_score": 0.1176,
+      "llm_score": 1
+    },
+    {
+      "question": "What did Sam suggest Evan try for stress relief and flexibility?",
+      "answer": "Yoga",
+      "response": "Sam suggested Evan try yoga.",
+      "category": "4",
+      "bleu_score": 0.1667,
+      "f1_score": 0.3333,
+      "llm_score": 1
+    },
+    {
+      "question": "What did Sam offer Evan regarding yoga?",
+      "answer": "Support and tips",
+      "response": "Offered yoga tips and support.",
+      "category": "4",
+      "bleu_score": 0.5,
+      "f1_score": 0.75,
+      "llm_score": 1
+    },
+    {
+      "question": "What news did Evan share with Sam on 9th December 2023?",
+      "answer": "partner is pregnant",
+      "response": "His partner announced she's pregnant.",
+      "category": "4",
+      "bleu_score": 0.2857,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "What family event is Evan planning for next summer?",
+      "answer": "big family reunion",
+      "response": "A large family reunion next summer",
+      "category": "4",
+      "bleu_score": 0.3333,
+      "f1_score": 0.4444,
+      "llm_score": 1
+    },
+    {
+      "question": "What is the motto of Evan's family?",
+      "answer": "'Bring it on Home'",
+      "response": "Family motto: Bring it on Home.",
+      "category": "4",
+      "bleu_score": 0.375,
+      "f1_score": 0.4,
+      "llm_score": 1
+    },
+    {
+      "question": "According to Evan, what is important for Sam to believe in concerning his weight?",
+      "answer": "Your worth is not defined by your weight",
+      "response": "Believe in his ability to change",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "Who helped Evan get the painting published in the exhibition?",
+      "answer": "a close friend",
+      "response": "His close friend helped publish it.",
+      "category": "4",
+      "bleu_score": 0.2857,
+      "f1_score": 0.4444,
+      "llm_score": 1
+    },
+    {
+      "question": "What did Sam recently start enjoying to clear his head?",
+      "answer": "running in the mornings",
+      "response": "He started enjoying morning runs.",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 1
+    },
+    {
+      "question": "What did Sam suggest Evan should do with his keys?",
+      "answer": "put a GPS sensor on them",
+      "response": "Put a GPS sensor on them.",
+      "category": "4",
+      "bleu_score": 0.8571,
+      "f1_score": 1.0,
+      "llm_score": 1
+    },
+    {
+      "question": "How did Evan feel when he painted the piece with the bird flying over it?",
+      "answer": "a sense of joy and freedom",
+      "response": "Joyful and free with hope.",
+      "category": "4",
+      "bleu_score": 0.1667,
+      "f1_score": 0.1818,
+      "llm_score": 1
+    },
+    {
+      "question": "What did Evan suggest Sam should keep doing to find his own version of love?",
+      "answer": "Keep trying new things",
+      "response": "Keep trying new things and exploring.",
+      "category": "4",
+      "bleu_score": 0.5714,
+      "f1_score": 0.8,
+      "llm_score": 1
+    },
+    {
+      "question": "How did Evan describe the process of creating the painting with the bird flying over it?",
+      "answer": "embracing the creative process without restraint",
+      "response": "With spontaneous strokes and bold colors",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What did Evan want to share with his work friends?",
+      "answer": "getting married",
+      "response": "His recent contemporary realist painting",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What did Evan share with Sam after their hiking trip?",
+      "answer": "a photo of a man standing on a rock looking out over a valley",
+      "response": "A photo of a small stream.",
+      "category": "4",
+      "bleu_score": 0.2102,
+      "f1_score": 0.375,
+      "llm_score": 0
+    },
+    {
+      "question": "What did Evan offer to share with Sam after talking about healthy snacks?",
+      "answer": "the recipes for cookies",
+      "response": "He offered to send cookie recipe.",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 1
+    },
+    {
+      "question": "What did Evan and his partner share with their extended family on January 5, 2024?",
+      "answer": "their marriage",
+      "response": "They announced their marriage to family.",
+      "category": "4",
+      "bleu_score": 0.2857,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "What was Evan limiting himself to on his new diet?",
+      "answer": "just two ginger snaps a day",
+      "response": "Fruits and vegetables, cutting sugary snacks.",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What sports activity did Evan and his partner try in a recent weekend?",
+      "answer": "Snowshoeing",
+      "response": "They went hiking and cycling together.",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What advice did Evan suggest Sam seek from a doctor?",
+      "answer": "diet plan and low-impact exercises",
+      "response": "Balanced diet and low-impact exercise advice",
+      "category": "4",
+      "bleu_score": 0.5,
+      "f1_score": 0.5455,
+      "llm_score": 1
+    },
+    {
+      "question": "What suggestions did Evan give for low-impact exercises?",
+      "answer": "swimming, yoga, walking",
+      "response": "Swimming, yoga, walking (e.g., beach walks)",
+      "category": "4",
+      "bleu_score": 0.4545,
+      "f1_score": 0.6,
+      "llm_score": 1
+    },
+    {
+      "question": "What movie did Sam watch that motivated him to keep up with his routine?",
+      "answer": "The Godfather",
+      "response": "He watched The Godfather movie.",
+      "category": "4",
+      "bleu_score": 0.3333,
+      "f1_score": 0.5714,
+      "llm_score": 1
+    },
+    {
+      "question": "What activity helped Evan with stress and flexibility?",
+      "answer": "Yoga",
+      "response": "Yoga helped Evan with stress, flexibility",
+      "category": "4",
+      "bleu_score": 0.1429,
+      "f1_score": 0.2857,
+      "llm_score": 1
+    },
+    {
+      "question": "What did Evan share a photo of that was taken on a camping trip?",
+      "answer": "a kayak",
+      "response": "Kayak seen from the front",
+      "category": "4",
+      "bleu_score": 0.2,
+      "f1_score": 0.2857,
+      "llm_score": 1
+    },
+    {
+      "question": "Why did Evan apologize to his partner?",
+      "answer": "for a drunken night",
+      "response": "He peed on rose bushes accidentally.",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "How does Evan describe being out on the water while kayaking and watching the sunset?",
+      "answer": "peaceful",
+      "response": "Truly unforgettable and very peaceful.",
+      "category": "4",
+      "bleu_score": 0.1667,
+      "f1_score": 0.3333,
+      "llm_score": 1
+    }
+  ]
+}

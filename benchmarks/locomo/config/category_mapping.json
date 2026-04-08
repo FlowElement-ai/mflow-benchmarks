@@ -1,0 +1,30 @@
+{
+  "source": "snap-research/locomo Issue #27 ('Correct label errors in locomo10.json QA') and PR #8",
+  "url": "https://github.com/snap-research/LoCoMo/issues/27",
+  "note": "The category numbers in locomo10.json do NOT match the paper's text ordering. The definitive mapping below comes from the official repository.",
+  "mapping": {
+    "1": "Multi-hop",
+    "2": "Temporal",
+    "3": "Open-domain",
+    "4": "Single-hop",
+    "5": "Adversarial"
+  },
+  "common_mistakes": {
+    "description": "Many implementations incorrectly assume Cat 1=Single-hop based on the paper's text order. The M-flow benchmark README also had this error.",
+    "wrong_mapping": {
+      "1": "Single-hop (WRONG)",
+      "2": "Temporal (correct)",
+      "3": "Multi-hop (WRONG)",
+      "4": "Open-domain (WRONG)"
+    }
+  },
+  "question_counts": {
+    "1_multi_hop": 282,
+    "2_temporal": 321,
+    "3_open_domain": 96,
+    "4_single_hop": 841,
+    "5_adversarial": 446,
+    "total": 1986,
+    "evaluated": 1541
+  }
+}

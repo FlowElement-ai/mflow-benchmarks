@@ -1,0 +1,1372 @@
+{
+  "2": [
+    {
+      "question": "Who did Maria have dinner with on May 3, 2023?",
+      "answer": "her mother",
+      "response": "She had dinner with her mom.",
+      "category": "2",
+      "bleu_score": 0.1429,
+      "f1_score": 0.25,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Maria donate her car?",
+      "answer": "21 December 2022",
+      "response": "Donated car on December 21, 2022.",
+      "category": "2",
+      "bleu_score": 0.375,
+      "f1_score": 0.6667,
+      "llm_score": 1
+    },
+    {
+      "question": "What martial arts has John done?",
+      "answer": "Kickboxing, Taekwondo",
+      "response": "He's done taekwondo and kickboxing.",
+      "category": "1",
+      "bleu_score": 0.2857,
+      "f1_score": 0.5714,
+      "llm_score": 1
+    },
+    {
+      "question": "What type of volunteering have John and Maria both done?",
+      "answer": "Volunteering at a homeless shelter",
+      "response": "They both volunteered at food drives.",
+      "category": "1",
+      "bleu_score": 0.1429,
+      "f1_score": 0.1818,
+      "llm_score": 0
+    },
+    {
+      "question": "When did John join the online support group?",
+      "answer": "The week before 1 January 2023",
+      "response": "He joined in late December 2022.",
+      "category": "2",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Maria go to the beach?",
+      "answer": "December 2022",
+      "response": "She went in December 2022.",
+      "category": "2",
+      "bleu_score": 0.3333,
+      "f1_score": 0.5714,
+      "llm_score": 1
+    },
+    {
+      "question": "Where has Maria made friends?",
+      "answer": "homeless shelter, gym, church",
+      "response": "She made friends at her church.",
+      "category": "1",
+      "bleu_score": 0.1429,
+      "f1_score": 0.2,
+      "llm_score": 1
+    },
+    {
+      "question": "What items des John mention having as a child?",
+      "answer": "A doll, a film camera",
+      "response": "He had a little comforting doll.",
+      "category": "1",
+      "bleu_score": 0.2857,
+      "f1_score": 0.4,
+      "llm_score": 0
+    },
+    {
+      "question": "What might John's financial status be?",
+      "answer": "Middle-class or wealthy",
+      "response": "Recently unemployed and experiencing financial strain",
+      "category": "3",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "Who gave Maria's family money when she was younger and her family was going through tough times?",
+      "answer": "Her aunt",
+      "response": "Their aunt gave her family money.",
+      "category": "1",
+      "bleu_score": 0.2857,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Maria meet Jean?",
+      "answer": "February 24, 2023",
+      "response": "Unknown \u2014 no memory mentions Jean.",
+      "category": "2",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What people has Maria met and helped while volunteering?",
+      "answer": "David, Jean, Cindy, Laura",
+      "response": "Children, an 8\u2011year\u2011old, David, shelter residents",
+      "category": "1",
+      "bleu_score": 0.4444,
+      "f1_score": 0.2,
+      "llm_score": 1
+    },
+    {
+      "question": "What test has John taken multiple times?",
+      "answer": "The military aptitude test",
+      "response": "He retook an aptitude test.",
+      "category": "1",
+      "bleu_score": 0.3333,
+      "f1_score": 0.4444,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Maria's grandmother pass away?",
+      "answer": "The week before 6 March 2023",
+      "response": "Last week of February 2023.",
+      "category": "2",
+      "bleu_score": 0.3333,
+      "f1_score": 0.3636,
+      "llm_score": 1
+    },
+    {
+      "question": "Would John be considered a patriotic person?",
+      "answer": "Yes",
+      "response": "Yes. John is very patriotic.",
+      "category": "3",
+      "bleu_score": 0.1429,
+      "f1_score": 0.3333,
+      "llm_score": 1
+    },
+    {
+      "question": "What writing classes has Maria taken?",
+      "answer": "Poetry, creative writing",
+      "response": "Creative writing class and poetry class",
+      "category": "1",
+      "bleu_score": 0.5,
+      "f1_score": 0.75,
+      "llm_score": 1
+    },
+    {
+      "question": "When did John get his degree?",
+      "answer": "The week before 2 April 2023",
+      "response": "He graduated in late March 2023.",
+      "category": "2",
+      "bleu_score": 0.1429,
+      "f1_score": 0.1667,
+      "llm_score": 1
+    },
+    {
+      "question": "What might John's degree be in?",
+      "answer": "Political science, Public administration, Public affairs",
+      "response": "Likely a mechanical engineering degree.",
+      "category": "3",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "Who did John go to yoga with?",
+      "answer": "Rob",
+      "response": "He went with a colleague, Rob.",
+      "category": "1",
+      "bleu_score": 0.125,
+      "f1_score": 0.2857,
+      "llm_score": 1
+    },
+    {
+      "question": "What damages have happened to John's car?",
+      "answer": "Broken windshield, Car broke down",
+      "response": "Broken windshield; collision damage; mechanical breakdown.",
+      "category": "1",
+      "bleu_score": 0.2222,
+      "f1_score": 0.1818,
+      "llm_score": 1
+    },
+    {
+      "question": "When did John take a road trip to the Pacific Northwest?",
+      "answer": "2022",
+      "response": "John took the trip in 2022.",
+      "category": "2",
+      "bleu_score": 0.1429,
+      "f1_score": 0.2857,
+      "llm_score": 1
+    },
+    {
+      "question": "What areas of the U.S. has John been to or is planning to go to?",
+      "answer": "Pacific northwest, east coast",
+      "response": "California and the East Coast",
+      "category": "1",
+      "bleu_score": 0.4,
+      "f1_score": 0.4444,
+      "llm_score": 1
+    },
+    {
+      "question": "When did John go to a convention with colleagues?",
+      "answer": "March 2023",
+      "response": "He attended it in March 2023.",
+      "category": "2",
+      "bleu_score": 0.2857,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "What desserts has Maria made?",
+      "answer": "Banana split sundae, Peach cobbler",
+      "response": "Banana split, peach cobbler, cakes.",
+      "category": "1",
+      "bleu_score": 0.625,
+      "f1_score": 0.8,
+      "llm_score": 1
+    },
+    {
+      "question": "When did John start boot camp with his family?",
+      "answer": "April.2023",
+      "response": "Started boot camps in April 2023.",
+      "category": "2",
+      "bleu_score": 0,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "What European countries has Maria been to?",
+      "answer": "Spain, England",
+      "response": "She has been to England.",
+      "category": "1",
+      "bleu_score": 0.1667,
+      "f1_score": 0.2857,
+      "llm_score": 1
+    },
+    {
+      "question": "What has Maria done to feel closer to her faith?",
+      "answer": "Join a local church, buy a cross necklace",
+      "response": "Joined church and bought cross necklace",
+      "category": "1",
+      "bleu_score": 0.3033,
+      "f1_score": 0.4615,
+      "llm_score": 1
+    },
+    {
+      "question": "When did John have a party with veterans?",
+      "answer": "The Friday before 20 May 2023",
+      "response": "May 19, 2023 (the Friday before)",
+      "category": "2",
+      "bleu_score": 0.5556,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "What causes does John feel passionate about supporting?",
+      "answer": "Veterans, schools, infrastructure",
+      "response": "Education, infrastructure, veterans, community volunteering",
+      "category": "1",
+      "bleu_score": 0.5,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "What events is Maria planning for the homeless shelter funraiser?",
+      "answer": "Chili cook-off, ring-toss tournament",
+      "response": "A ring-toss tournament and chili cook-off.",
+      "category": "1",
+      "bleu_score": 0.5714,
+      "f1_score": 0.8,
+      "llm_score": 1
+    },
+    {
+      "question": "What shelters does Maria volunteer at?",
+      "answer": "The homeless shelter, the dog shelter",
+      "response": "She volunteers at a homeless shelter.",
+      "category": "1",
+      "bleu_score": 0.2857,
+      "f1_score": 0.4,
+      "llm_score": 1
+    },
+    {
+      "question": "When did John get his dog Max?",
+      "answer": "In 2013",
+      "response": "Around June 2013, about ten years.",
+      "category": "2",
+      "bleu_score": 0.125,
+      "f1_score": 0.25,
+      "llm_score": 1
+    },
+    {
+      "question": "What outdoor activities has John done with his colleagues?",
+      "answer": "Hiking, mountaineering",
+      "response": "Unknown \u2014 no outdoor activities recorded.",
+      "category": "1",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What types of yoga has Maria practiced?",
+      "answer": "Aerial, kundalini",
+      "response": "Aerial yoga and upside-down poses",
+      "category": "1",
+      "bleu_score": 0.2,
+      "f1_score": 0.2857,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Maria join a gym?",
+      "answer": "The week before 16 June 2023",
+      "response": "She joined in mid-June 2023.",
+      "category": "2",
+      "bleu_score": 0.1667,
+      "f1_score": 0.1818,
+      "llm_score": 1
+    },
+    {
+      "question": "What states has Maria vacationed at?",
+      "answer": "Oregon, Florida",
+      "response": "Maria has vacationed in Florida only.",
+      "category": "1",
+      "bleu_score": 0.1429,
+      "f1_score": 0.25,
+      "llm_score": 0
+    },
+    {
+      "question": "What music events has John attended?",
+      "answer": "Live music event, violin concert",
+      "response": "A live music event last week.",
+      "category": "1",
+      "bleu_score": 0.4286,
+      "f1_score": 0.5455,
+      "llm_score": 1
+    },
+    {
+      "question": "What events for veterans has John participated in?",
+      "answer": "Petition, march, party, visiting veterans hospital, 5K charity run",
+      "response": "Hospital visit; veterans' march; 5K run",
+      "category": "1",
+      "bleu_score": 0.3562,
+      "f1_score": 0.4,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Maria get in a car accident?",
+      "answer": "July 2, 2023",
+      "response": "Accident happened July 2, 2023.",
+      "category": "2",
+      "bleu_score": 0.5714,
+      "f1_score": 0.75,
+      "llm_score": 1
+    },
+    {
+      "question": "Around which US holiday did Maria get into a car accident?",
+      "answer": "Independence Day",
+      "response": "Around the Fourth of July",
+      "category": "3",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 1
+    },
+    {
+      "question": "What are the names of John's children?",
+      "answer": "Kyle, Sara",
+      "response": "Kyle (only child's name known)",
+      "category": "1",
+      "bleu_score": 0.125,
+      "f1_score": 0.2857,
+      "llm_score": 0
+    },
+    {
+      "question": "Does John live close to a beach or the mountains?",
+      "answer": "beach",
+      "response": "He lives close to the beach.",
+      "category": "3",
+      "bleu_score": 0.1429,
+      "f1_score": 0.2857,
+      "llm_score": 1
+    },
+    {
+      "question": "What area was hit by a flood?",
+      "answer": "West County",
+      "response": "His old area \u2014 West County.",
+      "category": "1",
+      "bleu_score": 0.2857,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "When was John's old area hit with a flood?",
+      "answer": "The week before 7 July 2023",
+      "response": "The week before July 7, 2023",
+      "category": "2",
+      "bleu_score": 0.8571,
+      "f1_score": 1.0,
+      "llm_score": 1
+    },
+    {
+      "question": "What activities has Maria done with her church friends?",
+      "answer": "Hiking, picnic, volunteer work",
+      "response": "Hiked, picnicked, played games, volunteered",
+      "category": "1",
+      "bleu_score": 0.25,
+      "f1_score": 0.0,
+      "llm_score": 1
+    },
+    {
+      "question": "Would John be open to moving to another country?",
+      "answer": "No, he has goals specifically in the U.S. like joining the military and running for office.",
+      "response": "Unlikely \u2014 committed to country and community.",
+      "category": "3",
+      "bleu_score": 0.0716,
+      "f1_score": 0.087,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Maria go hiking with her church friends?",
+      "answer": "The weekend before 22 July 2023",
+      "response": "Weekend of July 15\u201316, 2023.",
+      "category": "2",
+      "bleu_score": 0.4286,
+      "f1_score": 0.5455,
+      "llm_score": 1
+    },
+    {
+      "question": "What exercises has John done?",
+      "answer": "Weight training, Circuit training, Kickboxing, yoga",
+      "response": "Yoga, kickboxing, weight training, boot camps.",
+      "category": "1",
+      "bleu_score": 0.7,
+      "f1_score": 0.7273,
+      "llm_score": 1
+    },
+    {
+      "question": "When did John have his first firefighter call-out?",
+      "answer": "The sunday before 3` July 2023",
+      "response": "On July 30, 2023, first call-out.",
+      "category": "2",
+      "bleu_score": 0.2222,
+      "f1_score": 0.3333,
+      "llm_score": 0
+    },
+    {
+      "question": "What food item did Maria drop off at the homeless shelter?",
+      "answer": "Cakes",
+      "response": "She dropped off the baked goods.",
+      "category": "1",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 1
+    },
+    {
+      "question": "What attributes describe John?",
+      "answer": "Selfless, family-oriented, passionate, rational",
+      "response": "Family-oriented, community-minded, passionate, resilient, mentor.",
+      "category": "3",
+      "bleu_score": 0.5,
+      "f1_score": 0.4444,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Maria start volunteering at the homeless shelter?",
+      "answer": "Around August 2022",
+      "response": "She began around August 2022.",
+      "category": "2",
+      "bleu_score": 0.5,
+      "f1_score": 0.75,
+      "llm_score": 1
+    },
+    {
+      "question": "Who have written notes of gratitude to Maria?",
+      "answer": "Cindy, Laura",
+      "response": "A shelter resident named Cindy.",
+      "category": "1",
+      "bleu_score": 0.1667,
+      "f1_score": 0.2857,
+      "llm_score": 0
+    },
+    {
+      "question": "When did John help renovate his hometown community center?",
+      "answer": "2022",
+      "response": "He renovated it in 2022.",
+      "category": "2",
+      "bleu_score": 0.1667,
+      "f1_score": 0.3333,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Maria take up community work with her church friends?",
+      "answer": "August 4, 2023",
+      "response": "August 2023 she began volunteering.",
+      "category": "2",
+      "bleu_score": 0.3333,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Maria receive a medal from the homeless shelter?",
+      "answer": "The week before 9 August 2023",
+      "response": "The week before August 9, 2023.",
+      "category": "2",
+      "bleu_score": 0.75,
+      "f1_score": 1.0,
+      "llm_score": 1
+    },
+    {
+      "question": "When did John participate in a 5K charity run?",
+      "answer": "first weekend of August 2023",
+      "response": "Weekend of August 5\u20136, 2023",
+      "category": "2",
+      "bleu_score": 0.6667,
+      "f1_score": 0.8,
+      "llm_score": 1
+    },
+    {
+      "question": "What causes has John done events for?",
+      "answer": "Toy drive, Community food drive, veterans, domestic violence",
+      "response": "Veterans, domestic abuse, food insecurity, tech.",
+      "category": "1",
+      "bleu_score": 0.5429,
+      "f1_score": 0.4615,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Maria get Coco?",
+      "answer": "Two weeks before 11 August 2023",
+      "response": "About July 28, 2023 (two weeks)",
+      "category": "2",
+      "bleu_score": 0.3333,
+      "f1_score": 0.1667,
+      "llm_score": 1
+    },
+    {
+      "question": "When did John go on a camping trip with Max?",
+      "answer": "The summer of 2022",
+      "response": "They camped in summer of 2022.",
+      "category": "2",
+      "bleu_score": 0.4286,
+      "f1_score": 0.6,
+      "llm_score": 1
+    },
+    {
+      "question": "What are Maria's dogs' names?",
+      "answer": "Coco, Shadow",
+      "response": "Maria's dogs are Coco and Shadow.",
+      "category": "1",
+      "bleu_score": 0.25,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "When did Maria adopt Shadow?",
+      "answer": "The week before 13 August 2023",
+      "response": "Adopted in early August 2023.",
+      "category": "2",
+      "bleu_score": 0.3333,
+      "f1_score": 0.3636,
+      "llm_score": 1
+    },
+    {
+      "question": "How many dogs has Maria adopted from the dog shelter she volunteers at?",
+      "answer": "two",
+      "response": "She adopted one dog from shelter.",
+      "category": "1",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "How many weeks passed between Maria adopting Coco and Shadow?",
+      "answer": "two weeks",
+      "response": "About one week and two days.",
+      "category": "2",
+      "bleu_score": 0.1429,
+      "f1_score": 0.25,
+      "llm_score": 0
+    },
+    {
+      "question": "What job might Maria pursue in the future?",
+      "answer": "Shelter coordinator, Counselor",
+      "response": "Work at a homeless shelter",
+      "category": "3",
+      "bleu_score": 0.2,
+      "f1_score": 0.25,
+      "llm_score": 1
+    },
+    {
+      "question": "What is John's main focus in local politics?",
+      "answer": "Improving education and infrastructure",
+      "response": "Education reform and infrastructure development",
+      "category": "4",
+      "bleu_score": 0.6,
+      "f1_score": 0.6667,
+      "llm_score": 1
+    },
+    {
+      "question": "What sparked John's interest in improving education and infrastructure in the community?",
+      "answer": "Seeing how lack of education and crumbling infrastructure affected his neighborhood while growing up.",
+      "response": "His childhood witnessing neighborhood neglect.",
+      "category": "4",
+      "bleu_score": 0.1116,
+      "f1_score": 0.2105,
+      "llm_score": 1
+    },
+    {
+      "question": "How did the extra funding help the school shown in the photo shared by John?",
+      "answer": "Enabled needed repairs and renovations, making the learning environment safer and more modern for students.",
+      "response": "Enabled needed repairs and renovations",
+      "category": "4",
+      "bleu_score": 0.0907,
+      "f1_score": 0.5263,
+      "llm_score": 1
+    },
+    {
+      "question": "What type of workout class did Maria start doing in December 2023?",
+      "answer": "aerial yoga",
+      "response": "She started aerial yoga classes.",
+      "category": "4",
+      "bleu_score": 0.3333,
+      "f1_score": 0.5714,
+      "llm_score": 1
+    },
+    {
+      "question": "What did Maria donate to a homeless shelter in December 2023?",
+      "answer": "old car",
+      "response": "She donated an old car.",
+      "category": "4",
+      "bleu_score": 0.3333,
+      "f1_score": 0.5714,
+      "llm_score": 1
+    },
+    {
+      "question": "What kind of meal did John and his family make together in the photo shared by John?",
+      "answer": "pizza",
+      "response": "They made homemade pizzas together.",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 1
+    },
+    {
+      "question": "What kind of online group did John join?",
+      "answer": "service-focused online group",
+      "response": "He joined a service-focused online group.",
+      "category": "4",
+      "bleu_score": 0.4286,
+      "f1_score": 0.6667,
+      "llm_score": 1
+    },
+    {
+      "question": "What kind of activities did John and his mates from the online group do as part of their service efforts?",
+      "answer": "gave out food and supplies at a homeless shelter, organized a toy drive for kids in need",
+      "response": "Distributed food and supplies; toy drives.",
+      "category": "4",
+      "bleu_score": 0.1433,
+      "f1_score": 0.2727,
+      "llm_score": 1
+    },
+    {
+      "question": "Who inspired Maria to start volunteering?",
+      "answer": "Her aunt",
+      "response": "Her aunt inspired her to volunteer.",
+      "category": "4",
+      "bleu_score": 0.2857,
+      "f1_score": 0.5714,
+      "llm_score": 1
+    },
+    {
+      "question": "Why did Maria sit with the little girl at the shelter event in February 2023?",
+      "answer": "The girl seemed sad and had no other family",
+      "response": "The girl was sad and alone.",
+      "category": "4",
+      "bleu_score": 0.4294,
+      "f1_score": 0.5333,
+      "llm_score": 1
+    },
+    {
+      "question": "What did Jean go through before meeting Maria?",
+      "answer": "divorce, job loss, homelessness",
+      "response": "Unknown",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "Why did John decide to run for office again?",
+      "answer": "saw the impact he could make in the community through politics",
+      "response": "To make a difference in community",
+      "category": "4",
+      "bleu_score": 0.2173,
+      "f1_score": 0.375,
+      "llm_score": 1
+    },
+    {
+      "question": "What activity did John's colleague, Rob, invite him to?",
+      "answer": "beginner's yoga class",
+      "response": "Unknown \u2014 not mentioned in memories",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What is the name of John's one-year-old child?",
+      "answer": "Kyle",
+      "response": "John's one-year-old is named Kyle.",
+      "category": "4",
+      "bleu_score": 0.1429,
+      "f1_score": 0.3333,
+      "llm_score": 1
+    },
+    {
+      "question": "How often does John take his kids to the park?",
+      "answer": "A few times a week",
+      "response": "They go a few times weekly.",
+      "category": "4",
+      "bleu_score": 0.4286,
+      "f1_score": 0.6,
+      "llm_score": 1
+    },
+    {
+      "question": "What did Maria make for her home to remind her of a trip to England?",
+      "answer": "painting of a castle on a hill",
+      "response": "A painting of a castle",
+      "category": "4",
+      "bleu_score": 0.6703,
+      "f1_score": 0.8,
+      "llm_score": 1
+    },
+    {
+      "question": "Where did Maria get the idea for the castle shadow box in her home?",
+      "answer": "England",
+      "response": "From a trip to London, England.",
+      "category": "4",
+      "bleu_score": 0.125,
+      "f1_score": 0.2857,
+      "llm_score": 1
+    },
+    {
+      "question": "What did John receive a certificate for?",
+      "answer": "completion of a university degree",
+      "response": "Certificate for completing his university degree",
+      "category": "4",
+      "bleu_score": 0.3333,
+      "f1_score": 0.3636,
+      "llm_score": 1
+    },
+    {
+      "question": "What areas is John particularly interested in for policymaking?",
+      "answer": "education and infrastructure",
+      "response": "Education and infrastructure for the community",
+      "category": "4",
+      "bleu_score": 0.5,
+      "f1_score": 0.6667,
+      "llm_score": 1
+    },
+    {
+      "question": "What did Maria participate in last weekend before April 10, 2023?",
+      "answer": "a 5K charity run",
+      "response": "Organizing a meal at homeless shelter",
+      "category": "4",
+      "bleu_score": 0.1667,
+      "f1_score": 0.2,
+      "llm_score": 0
+    },
+    {
+      "question": "What event did John volunteer at last weekend?",
+      "answer": "career fair at a local school",
+      "response": "A 5K charity run for veterans.",
+      "category": "4",
+      "bleu_score": 0.1429,
+      "f1_score": 0.1667,
+      "llm_score": 0
+    },
+    {
+      "question": "What did John do that put a strain on his wallet?",
+      "answer": "His car broke down",
+      "response": "His car broke down; repair costs.",
+      "category": "4",
+      "bleu_score": 0.5,
+      "f1_score": 0.6,
+      "llm_score": 1
+    },
+    {
+      "question": "Where did John explore on a road trip last year?",
+      "answer": "Pacific Northwest",
+      "response": "Pacific Northwest coast and national parks",
+      "category": "4",
+      "bleu_score": 0.3333,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "What topic has John been blogging about recently?",
+      "answer": "politics and the government",
+      "response": "Local politics: education and infrastructure",
+      "category": "4",
+      "bleu_score": 0.3333,
+      "f1_score": 0.2222,
+      "llm_score": 1
+    },
+    {
+      "question": "Why did John start blogging about politics and policies?",
+      "answer": "raise awareness and start conversations to create positive change",
+      "response": "To raise awareness and create change",
+      "category": "4",
+      "bleu_score": 0.6065,
+      "f1_score": 0.8,
+      "llm_score": 1
+    },
+    {
+      "question": "What was the focus of John's recent research and writing on his blog?",
+      "answer": "education reform and infrastructure development",
+      "response": "Education reform and infrastructure development",
+      "category": "4",
+      "bleu_score": 1.0,
+      "f1_score": 1.0,
+      "llm_score": 1
+    },
+    {
+      "question": "What did John attend with his colleagues in March 2023?",
+      "answer": "a tech-for-good convention",
+      "response": "Attended a Tech for Good convention.",
+      "category": "2",
+      "bleu_score": 0.2857,
+      "f1_score": 0.4444,
+      "llm_score": 1
+    },
+    {
+      "question": "How often does John work out with his family?",
+      "answer": "Three times a week",
+      "response": "They work out three times weekly.",
+      "category": "4",
+      "bleu_score": 0.2857,
+      "f1_score": 0.4,
+      "llm_score": 1
+    },
+    {
+      "question": "How has John's fitness improved since starting boot camps with his family?",
+      "answer": "More energy, gains in strength and endurance",
+      "response": "More energy; increased strength and endurance",
+      "category": "4",
+      "bleu_score": 0.6192,
+      "f1_score": 0.6154,
+      "llm_score": 1
+    },
+    {
+      "question": "What kind of food did Maria have on her dinner spread iwth her mother?",
+      "answer": "Salads, sandwiches, homemade desserts",
+      "response": "Salads, sandwiches, and homemade desserts.",
+      "category": "4",
+      "bleu_score": 0.75,
+      "f1_score": 0.8889,
+      "llm_score": 1
+    },
+    {
+      "question": "What activity did Maria and her mom do together in May 2023?",
+      "answer": "Made dinner together",
+      "response": "She and her mom made dinner.",
+      "category": "4",
+      "bleu_score": 0.2857,
+      "f1_score": 0.4444,
+      "llm_score": 1
+    },
+    {
+      "question": "What did Maria do to feel closer to a community and her faith?",
+      "answer": "joined a nearby church",
+      "response": "She joined a nearby church yesterday.",
+      "category": "4",
+      "bleu_score": 0.5714,
+      "f1_score": 0.8,
+      "llm_score": 1
+    },
+    {
+      "question": "Why did Maria join a nearby church recently?",
+      "answer": "to feel closer to a community and her faith",
+      "response": "For community connection and faith",
+      "category": "4",
+      "bleu_score": 0.2696,
+      "f1_score": 0.4615,
+      "llm_score": 1
+    },
+    {
+      "question": "What did John host for the veterans in May 2023 as part of the project?",
+      "answer": "a small party to share their stories",
+      "response": "A small party for veterans",
+      "category": "4",
+      "bleu_score": 0.4022,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "What did John and the veterans do during the small party?",
+      "answer": "share stories and make connections",
+      "response": "They shared stories and formed friendships.",
+      "category": "4",
+      "bleu_score": 0.2857,
+      "f1_score": 0.3636,
+      "llm_score": 1
+    },
+    {
+      "question": "What emotions did John feel during the small party with the veterans?",
+      "answer": "heartwarming",
+      "response": "He felt happy, heartened, and inspired.",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 1
+    },
+    {
+      "question": "What event is Maria getting ready for at the shelter on May 25, 2023?",
+      "answer": "fundraiser",
+      "response": "A chili cook-off fundraiser at shelter",
+      "category": "4",
+      "bleu_score": 0.1667,
+      "f1_score": 0.2857,
+      "llm_score": 1
+    },
+    {
+      "question": "What does Maria need to spread the word about for the fundraiser for the volunteer shelter?",
+      "answer": "chili cook-off",
+      "response": "The shelter's chili cook-off fundraiser.",
+      "category": "4",
+      "bleu_score": 0.2857,
+      "f1_score": 0.5714,
+      "llm_score": 1
+    },
+    {
+      "question": "What was the name of the pet that John had to say goodbye to on 3 June, 2023?",
+      "answer": "Max",
+      "response": "John said goodbye to Max.",
+      "category": "4",
+      "bleu_score": 0.1667,
+      "f1_score": 0.3333,
+      "llm_score": 1
+    },
+    {
+      "question": "How long was Max a part of John's family?",
+      "answer": "10 years",
+      "response": "He was with them ten years.",
+      "category": "4",
+      "bleu_score": 0.1429,
+      "f1_score": 0.25,
+      "llm_score": 1
+    },
+    {
+      "question": "How does John plan to honor the memories of his beloved pet?",
+      "answer": "By considering adopting a rescue dog",
+      "response": "Adopting a rescue dog to honor",
+      "category": "4",
+      "bleu_score": 0.6667,
+      "f1_score": 0.6667,
+      "llm_score": 1
+    },
+    {
+      "question": "What important values does John want to teach his kids through adopting a rescue dog?",
+      "answer": "Responsibility and compassion",
+      "response": "Responsibility, compassion, unconditional love, loyalty",
+      "category": "4",
+      "bleu_score": 0.25,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "What new activity did Maria start recently, as mentioned on 3 June, 2023?",
+      "answer": "volunteering at a local dog shelter once a month",
+      "response": "She recently joined a nearby church.",
+      "category": "4",
+      "bleu_score": 0.1074,
+      "f1_score": 0.1429,
+      "llm_score": 0
+    },
+    {
+      "question": "What did Maria say it was like being at the waterfall in Oregon?",
+      "answer": "Like being in a fairy tale",
+      "response": "Like being in a fairy tale.",
+      "category": "4",
+      "bleu_score": 0.8571,
+      "f1_score": 1.0,
+      "llm_score": 1
+    },
+    {
+      "question": "What does Maria say she feels when doing upside-down yoga poses?",
+      "answer": "Free and light",
+      "response": "She feels free and light.",
+      "category": "4",
+      "bleu_score": 0.5,
+      "f1_score": 0.75,
+      "llm_score": 1
+    },
+    {
+      "question": "What exciting news did Maria share on 16 June, 2023?",
+      "answer": "joined a gym",
+      "response": "She shared a surfboard beach photo.",
+      "category": "4",
+      "bleu_score": 0.1429,
+      "f1_score": 0.2222,
+      "llm_score": 0
+    },
+    {
+      "question": "What yoga activity has Maria been trying to improve her strength and endurance?",
+      "answer": "kundalini yoga",
+      "response": "Maria is trying Kundalini Yoga.",
+      "category": "4",
+      "bleu_score": 0.3333,
+      "f1_score": 0.5714,
+      "llm_score": 1
+    },
+    {
+      "question": "What did John recently get promoted to?",
+      "answer": "assistant manager",
+      "response": "He was promoted to assistant manager.",
+      "category": "4",
+      "bleu_score": 0.2857,
+      "f1_score": 0.5,
+      "llm_score": 1
+    },
+    {
+      "question": "What was one of the biggest challenges John faced in his journey to becoming assistant manager?",
+      "answer": "self-doubt",
+      "response": "Battling self-doubt and technical hurdles",
+      "category": "4",
+      "bleu_score": 0.2,
+      "f1_score": 0.3333,
+      "llm_score": 1
+    },
+    {
+      "question": "How does John describe the support he received during his journey to becoming assistant manager?",
+      "answer": "having support at home and his own grit",
+      "response": "Vital \u2014 family support and belief.",
+      "category": "4",
+      "bleu_score": 0.2477,
+      "f1_score": 0.2857,
+      "llm_score": 1
+    },
+    {
+      "question": "What kind of event did John and his family attend in June 2023?",
+      "answer": "live music event",
+      "response": "They attended a live music event.",
+      "category": "4",
+      "bleu_score": 0.4286,
+      "f1_score": 0.6667,
+      "llm_score": 1
+    },
+    {
+      "question": "Why did Maria need to help her cousin find a new place to live?",
+      "answer": "Her cousin had to leave and find a new place in a hurry.",
+      "response": "Her cousin was having tough times.",
+      "category": "4",
+      "bleu_score": 0.1577,
+      "f1_score": 0.2222,
+      "llm_score": 0
+    },
+    {
+      "question": "What event did John participate in to show support for veterans' rights?",
+      "answer": "marching event",
+      "response": "He joined a veterans' rights march.",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 1
+    },
+    {
+      "question": "What inspired John to join the marching event for veterans' rights?",
+      "answer": "Respect for the military and the desire to show support",
+      "response": "His long-standing respect for the military.",
+      "category": "4",
+      "bleu_score": 0.3723,
+      "f1_score": 0.5333,
+      "llm_score": 1
+    },
+    {
+      "question": "How often does John get to see sunsets like the one he shared with Maria?",
+      "answer": "At least once a week",
+      "response": "He sees them at least weekly.",
+      "category": "4",
+      "bleu_score": 0.2857,
+      "f1_score": 0.3636,
+      "llm_score": 1
+    },
+    {
+      "question": "What natural disaster affected John's old area on 7 July, 2023?",
+      "answer": "Flood",
+      "response": "His old area was flooded.",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 1
+    },
+    {
+      "question": "How did the flood impact the homes in John's old area?",
+      "answer": "Lots of homes were ruined.",
+      "response": "Inadequate infrastructure left many homes ruined.",
+      "category": "4",
+      "bleu_score": 0.4286,
+      "f1_score": 0.3636,
+      "llm_score": 1
+    },
+    {
+      "question": "What motivated Maria and John to discuss potential solutions for their community on 7 July, 2023?",
+      "answer": "Flood in John's old area",
+      "response": "A nasty flood that ruined homes.",
+      "category": "4",
+      "bleu_score": 0.1429,
+      "f1_score": 0.1818,
+      "llm_score": 1
+    },
+    {
+      "question": "What did Maria plan to do later on the evening of 7 July, 2023?",
+      "answer": "have dinner with friends from the gym",
+      "response": "Go to dinner with gym friends.",
+      "category": "4",
+      "bleu_score": 0.5714,
+      "f1_score": 0.6154,
+      "llm_score": 1
+    },
+    {
+      "question": "What kind of activities did Maria do at the picnic with her church friends?",
+      "answer": "played games like charades and a scavenger hunt",
+      "response": "Played charades and a scavenger hunt.",
+      "category": "4",
+      "bleu_score": 0.743,
+      "f1_score": 0.8571,
+      "llm_score": 1
+    },
+    {
+      "question": "What does John appreciate about the veteran's hospital visit?",
+      "answer": "the resilience of the veterans and their inspiring stories",
+      "response": "The veterans' resilience and inspiring stories.",
+      "category": "4",
+      "bleu_score": 0.6619,
+      "f1_score": 0.7143,
+      "llm_score": 1
+    },
+    {
+      "question": "What did John take away from visiting the veteran's hospital?",
+      "answer": "appreciation for giving back",
+      "response": "Appreciation and need to give back",
+      "category": "4",
+      "bleu_score": 0.3333,
+      "f1_score": 0.4,
+      "llm_score": 1
+    },
+    {
+      "question": "Why did John feel inspired to join the military after the visit to the hospital?",
+      "answer": "seeing the resilience of the veterans",
+      "response": "Hearing Samuel's stories and their resilience.",
+      "category": "4",
+      "bleu_score": 0.125,
+      "f1_score": 0.1818,
+      "llm_score": 1
+    },
+    {
+      "question": "In what activity did Maria and her church friends participate in July 2023?",
+      "answer": "hiking",
+      "response": "Hiking with her church friends.",
+      "category": "4",
+      "bleu_score": 0.1667,
+      "f1_score": 0.3333,
+      "llm_score": 1
+    },
+    {
+      "question": "What does John think about trying new classes at the yoga studio?",
+      "answer": "Trying new classes is a fun way to switch up the exercise routine.",
+      "response": "Keeps training fresh and pushes you.",
+      "category": "4",
+      "bleu_score": 0.0526,
+      "f1_score": 0.0,
+      "llm_score": 1
+    },
+    {
+      "question": "Which activity has John done apart from yoga at the studio?",
+      "answer": "weight training",
+      "response": "He did weight training there.",
+      "category": "4",
+      "bleu_score": 0.3333,
+      "f1_score": 0.5714,
+      "llm_score": 1
+    },
+    {
+      "question": "What community service did Maria mention that she was involved in on 31 July, 2023?",
+      "answer": "volunteered at a homeless shelter",
+      "response": "Dropped off baked goods at shelter",
+      "category": "4",
+      "bleu_score": 0.3333,
+      "f1_score": 0.3636,
+      "llm_score": 1
+    },
+    {
+      "question": "How did Maria start volunteering at the homeless shelter?",
+      "answer": "Witnessed a family struggling on the streets and reached out to the shelter",
+      "response": "Saw a family homeless, contacted shelter.",
+      "category": "4",
+      "bleu_score": 0.2007,
+      "f1_score": 0.3333,
+      "llm_score": 1
+    },
+    {
+      "question": "What did John do the week before August 3, 2023 involving his kids?",
+      "answer": "Had a meaningful experience at a military memorial",
+      "response": "Visited a military memorial with kids.",
+      "category": "4",
+      "bleu_score": 0.3715,
+      "f1_score": 0.4615,
+      "llm_score": 1
+    },
+    {
+      "question": "How did John describe his kids' reaction at the military memorial?",
+      "answer": "awestruck and humbled",
+      "response": "They were awestruck, humbled, and moved.",
+      "category": "4",
+      "bleu_score": 0.3333,
+      "f1_score": 0.6667,
+      "llm_score": 1
+    },
+    {
+      "question": "Why does Maria think it's important for younger generations to visit military memorials?",
+      "answer": "To remember and appreciate those who served",
+      "response": "To teach respect and remember veterans",
+      "category": "4",
+      "bleu_score": 0.4232,
+      "f1_score": 0.4615,
+      "llm_score": 1
+    },
+    {
+      "question": "What does John believe is important for children regarding veterans?",
+      "answer": "Teaching them to respect and appreciate those who served",
+      "response": "Children should learn to respect veterans",
+      "category": "4",
+      "bleu_score": 0.2022,
+      "f1_score": 0.2667,
+      "llm_score": 1
+    },
+    {
+      "question": "What happened to John's job in August 2023?",
+      "answer": "John lost his job at the mechanical engineering company.",
+      "response": "He lost his mechanical engineering job.",
+      "category": "4",
+      "bleu_score": 0.5584,
+      "f1_score": 0.6667,
+      "llm_score": 1
+    },
+    {
+      "question": "What activity did Maria take up with her friends from church in August 2023?",
+      "answer": "community work",
+      "response": "Volunteering at a homeless shelter",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 1
+    },
+    {
+      "question": "What did John do to help his community last year in his hometown?",
+      "answer": "Helped renovate a rundown community center.",
+      "response": "Renovated a dilapidated community center.",
+      "category": "4",
+      "bleu_score": 0.5643,
+      "f1_score": 0.5455,
+      "llm_score": 1
+    },
+    {
+      "question": "What cause did the 5K charity run organized by John support?",
+      "answer": "veterans and their families",
+      "response": "Veterans and domestic abuse victims",
+      "category": "4",
+      "bleu_score": 0.4,
+      "f1_score": 0.4444,
+      "llm_score": 0
+    },
+    {
+      "question": "Who did John work with to raise awareness and funds for victims of domestic abuse?",
+      "answer": "a local organization",
+      "response": "A local domestic abuse organization.",
+      "category": "4",
+      "bleu_score": 0.5,
+      "f1_score": 0.75,
+      "llm_score": 1
+    },
+    {
+      "question": "What recognition did Maria receive at the homeless shelter in August 2023?",
+      "answer": "a medal for volunteering",
+      "response": "She received a medal from shelter",
+      "category": "4",
+      "bleu_score": 0.3333,
+      "f1_score": 0.4,
+      "llm_score": 1
+    },
+    {
+      "question": "What is the name of Maria's puppy she got two weeks before August 11, 2023?",
+      "answer": "Coco",
+      "response": "Her puppy's name is Coco.",
+      "category": "4",
+      "bleu_score": 0.1429,
+      "f1_score": 0.3333,
+      "llm_score": 1
+    },
+    {
+      "question": "What activity did John and Max enjoy together last summer?",
+      "answer": "Camping",
+      "response": "They went camping, hiking, and swimming.",
+      "category": "4",
+      "bleu_score": 0.1111,
+      "f1_score": 0.2857,
+      "llm_score": 1
+    },
+    {
+      "question": "How does John describe the camping trip with Max?",
+      "answer": "Peaceful and awesome",
+      "response": "Peaceful and awesome; we made memories.",
+      "category": "4",
+      "bleu_score": 0.375,
+      "f1_score": 0.4444,
+      "llm_score": 1
+    },
+    {
+      "question": "Why does John say he feels stuck and questioning his decisions and goals?",
+      "answer": "Not feeling like making much of an impact",
+      "response": "He feels he isn't making impact",
+      "category": "4",
+      "bleu_score": 0.2477,
+      "f1_score": 0.3077,
+      "llm_score": 1
+    },
+    {
+      "question": "What is the name of Maria's second puppy?",
+      "answer": "Shadow",
+      "response": "Her second puppy's name is Shadow.",
+      "category": "4",
+      "bleu_score": 0.125,
+      "f1_score": 0.2857,
+      "llm_score": 1
+    },
+    {
+      "question": "How is Maria's new puppy adjusting to its new home?",
+      "answer": "doing great - learning commands and house training",
+      "response": "Adjusting well\u2014learning commands and housetraining",
+      "category": "4",
+      "bleu_score": 0.2195,
+      "f1_score": 0.3077,
+      "llm_score": 1
+    },
+    {
+      "question": "What is John currently doing as a volunteer in August 2023?",
+      "answer": "mentoring students at a local school",
+      "response": "Organizing virtual military support group",
+      "category": "4",
+      "bleu_score": 0,
+      "f1_score": 0.0,
+      "llm_score": 0
+    },
+    {
+      "question": "What activities does John's family enjoy doing together?",
+      "answer": "going for hikes, hanging out at the park, having picnics, playing board games, having movie nights",
+      "response": "Hikes, park picnics, board games, movies.",
+      "category": "4",
+      "bleu_score": 0.2943,
+      "f1_score": 0.4762,
+      "llm_score": 1
+    },
+    {
+      "question": "What did the donations help John's community acquire on 16 August, 2023?",
+      "answer": "a brand new fire truck",
+      "response": "Donations purchased a new fire truck.",
+      "category": "4",
+      "bleu_score": 0.5714,
+      "f1_score": 0.7273,
+      "llm_score": 1
+    }
+  ]
+}

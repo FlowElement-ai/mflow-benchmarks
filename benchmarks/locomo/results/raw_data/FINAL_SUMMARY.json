@@ -1,0 +1,343 @@
+{
+  "benchmark": "LOCOMO-10",
+  "system": "M-flow 0.3.2",
+  "category_mapping": {
+    "source": "snap-research/locomo Issue #27, PR #8",
+    "mapping": {
+      "1": "Multi-hop",
+      "2": "Temporal",
+      "3": "Open-domain",
+      "4": "Single-hop",
+      "5": "Adversarial"
+    },
+    "note": "Cat 2 and Cat 3 are swapped relative to the paper's text ordering. Cat 1 and Cat 4 are also different from naive assumption. The definitive mapping comes from the official repo."
+  },
+  "configuration": {
+    "llm_ingest": "gpt-5-nano",
+    "llm_answer": "gpt-5-mini (temperature=1, not configurable)",
+    "llm_judge": "gpt-4o-mini (temperature=0)",
+    "embedding": "text-embedding-3-small (1536 dim)",
+    "top_k": 10,
+    "precise_mode": true,
+    "episodic_routing": true
+  },
+  "overall": {
+    "questions_evaluated": 1541,
+    "correct": 1261,
+    "score_pct": 81.8
+  },
+  "per_category": {
+    "Multi-hop": {
+      "cat_number": 1,
+      "correct": 212,
+      "total": 282,
+      "score_pct": 75.2
+    },
+    "Temporal": {
+      "cat_number": 2,
+      "correct": 255,
+      "total": 321,
+      "score_pct": 79.4
+    },
+    "Open-domain": {
+      "cat_number": 3,
+      "correct": 56,
+      "total": 96,
+      "score_pct": 58.3
+    },
+    "Single-hop": {
+      "cat_number": 4,
+      "correct": 737,
+      "total": 841,
+      "score_pct": 87.6
+    },
+    "Adversarial": {
+      "cat_number": 5,
+      "correct": 1,
+      "total": 1,
+      "score_pct": 100.0
+    }
+  },
+  "per_conversation": [
+    {
+      "conv_idx": 0,
+      "questions_evaluated": 152,
+      "correct": 127,
+      "score_pct": 83.6,
+      "per_category": {
+        "Multi-hop": {
+          "correct": 22,
+          "total": 32,
+          "score_pct": 68.8
+        },
+        "Temporal": {
+          "correct": 30,
+          "total": 37,
+          "score_pct": 81.1
+        },
+        "Open-domain": {
+          "correct": 12,
+          "total": 13,
+          "score_pct": 92.3
+        },
+        "Single-hop": {
+          "correct": 63,
+          "total": 70,
+          "score_pct": 90.0
+        }
+      }
+    },
+    {
+      "conv_idx": 1,
+      "questions_evaluated": 82,
+      "correct": 74,
+      "score_pct": 90.2,
+      "per_category": {
+        "Multi-hop": {
+          "correct": 9,
+          "total": 11,
+          "score_pct": 81.8
+        },
+        "Temporal": {
+          "correct": 25,
+          "total": 26,
+          "score_pct": 96.2
+        },
+        "Single-hop": {
+          "correct": 39,
+          "total": 44,
+          "score_pct": 88.6
+        },
+        "Adversarial": {
+          "correct": 1,
+          "total": 1,
+          "score_pct": 100.0
+        }
+      }
+    },
+    {
+      "conv_idx": 2,
+      "questions_evaluated": 152,
+      "correct": 131,
+      "score_pct": 86.2,
+      "per_category": {
+        "Multi-hop": {
+          "correct": 24,
+          "total": 31,
+          "score_pct": 77.4
+        },
+        "Temporal": {
+          "correct": 24,
+          "total": 27,
+          "score_pct": 88.9
+        },
+        "Open-domain": {
+          "correct": 6,
+          "total": 8,
+          "score_pct": 75.0
+        },
+        "Single-hop": {
+          "correct": 77,
+          "total": 86,
+          "score_pct": 89.5
+        }
+      }
+    },
+    {
+      "conv_idx": 3,
+      "questions_evaluated": 199,
+      "correct": 157,
+      "score_pct": 78.9,
+      "per_category": {
+        "Multi-hop": {
+          "correct": 24,
+          "total": 37,
+          "score_pct": 64.9
+        },
+        "Temporal": {
+          "correct": 33,
+          "total": 40,
+          "score_pct": 82.5
+        },
+        "Open-domain": {
+          "correct": 2,
+          "total": 11,
+          "score_pct": 18.2
+        },
+        "Single-hop": {
+          "correct": 98,
+          "total": 111,
+          "score_pct": 88.3
+        }
+      }
+    },
+    {
+      "conv_idx": 4,
+      "questions_evaluated": 178,
+      "correct": 138,
+      "score_pct": 77.5,
+      "per_category": {
+        "Multi-hop": {
+          "correct": 25,
+          "total": 31,
+          "score_pct": 80.6
+        },
+        "Temporal": {
+          "correct": 17,
+          "total": 26,
+          "score_pct": 65.4
+        },
+        "Open-domain": {
+          "correct": 5,
+          "total": 14,
+          "score_pct": 35.7
+        },
+        "Single-hop": {
+          "correct": 91,
+          "total": 107,
+          "score_pct": 85.0
+        }
+      }
+    },
+    {
+      "conv_idx": 5,
+      "questions_evaluated": 123,
+      "correct": 98,
+      "score_pct": 79.7,
+      "per_category": {
+        "Multi-hop": {
+          "correct": 26,
+          "total": 30,
+          "score_pct": 86.7
+        },
+        "Temporal": {
+          "correct": 20,
+          "total": 24,
+          "score_pct": 83.3
+        },
+        "Open-domain": {
+          "correct": 2,
+          "total": 7,
+          "score_pct": 28.6
+        },
+        "Single-hop": {
+          "correct": 50,
+          "total": 62,
+          "score_pct": 80.6
+        }
+      }
+    },
+    {
+      "conv_idx": 6,
+      "questions_evaluated": 150,
+      "correct": 133,
+      "score_pct": 88.7,
+      "per_category": {
+        "Multi-hop": {
+          "correct": 17,
+          "total": 20,
+          "score_pct": 85.0
+        },
+        "Temporal": {
+          "correct": 27,
+          "total": 34,
+          "score_pct": 79.4
+        },
+        "Open-domain": {
+          "correct": 8,
+          "total": 13,
+          "score_pct": 61.5
+        },
+        "Single-hop": {
+          "correct": 81,
+          "total": 83,
+          "score_pct": 97.6
+        }
+      }
+    },
+    {
+      "conv_idx": 7,
+      "questions_evaluated": 191,
+      "correct": 154,
+      "score_pct": 80.6,
+      "per_category": {
+        "Multi-hop": {
+          "correct": 15,
+          "total": 21,
+          "score_pct": 71.4
+        },
+        "Temporal": {
+          "correct": 30,
+          "total": 42,
+          "score_pct": 71.4
+        },
+        "Open-domain": {
+          "correct": 6,
+          "total": 10,
+          "score_pct": 60.0
+        },
+        "Single-hop": {
+          "correct": 103,
+          "total": 118,
+          "score_pct": 87.3
+        }
+      }
+    },
+    {
+      "conv_idx": 8,
+      "questions_evaluated": 156,
+      "correct": 118,
+      "score_pct": 75.6,
+      "per_category": {
+        "Multi-hop": {
+          "correct": 26,
+          "total": 37,
+          "score_pct": 70.3
+        },
+        "Temporal": {
+          "correct": 26,
+          "total": 33,
+          "score_pct": 78.8
+        },
+        "Open-domain": {
+          "correct": 9,
+          "total": 13,
+          "score_pct": 69.2
+        },
+        "Single-hop": {
+          "correct": 57,
+          "total": 73,
+          "score_pct": 78.1
+        }
+      }
+    },
+    {
+      "conv_idx": 9,
+      "questions_evaluated": 158,
+      "correct": 131,
+      "score_pct": 82.9,
+      "per_category": {
+        "Multi-hop": {
+          "correct": 24,
+          "total": 32,
+          "score_pct": 75.0
+        },
+        "Temporal": {
+          "correct": 23,
+          "total": 32,
+          "score_pct": 71.9
+        },
+        "Open-domain": {
+          "correct": 6,
+          "total": 7,
+          "score_pct": 85.7
+        },
+        "Single-hop": {
+          "correct": 78,
+          "total": 87,
+          "score_pct": 89.7
+        }
+      }
+    }
+  ]
+}

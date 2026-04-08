@@ -1,0 +1,20 @@
+{
+  "description": "Conv 8 (Evan ↔ Sam) was run 5 times to measure gpt-5-mini (temperature=1) variance",
+  "total_questions": 156,
+  "runs": {
+    "run1": {"correct": 119, "score_pct": 76.3, "data_files": ["mflow_search_conv8_run1.json", "mflow_eval_conv8_run1.json"]},
+    "run2": {"correct": 115, "score_pct": 73.7, "data_files": "DATA LOST — run2 overwrote conv8.json before backup was made"},
+    "run3": {"correct": 117, "score_pct": 75.0, "data_files": ["mflow_search_conv8_run3.json", "mflow_eval_conv8_run3.json"]},
+    "run4": {"correct": 117, "score_pct": 75.0, "data_files": ["mflow_search_conv8_run4.json", "mflow_eval_conv8_run4.json"]},
+    "run5": {"correct": 118, "score_pct": 75.6, "data_files": ["mflow_search_conv8_run5.json", "mflow_eval_conv8_run5.json"]}
+  },
+  "statistics": {
+    "mean_pct": 75.1,
+    "min_pct": 73.7,
+    "max_pct": 76.3,
+    "range_pct": 2.6,
+    "std_pct": 0.9
+  },
+  "authoritative_run": "run5",
+  "note": "Run 5 was selected as the authoritative result for the overall benchmark score."
+}

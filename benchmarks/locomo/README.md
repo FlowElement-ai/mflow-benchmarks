@@ -1,129 +1,122 @@
-# LoCoMo-10 Benchmark
+# M-flow 0.3.2 — LoCoMo Benchmark Results
 
 ## Results
 
-Dataset: LoCoMo-10 (10 conversations, 1540 evaluated questions)
-Judge LLM: gpt-4o-mini
+**Overall: 81.8% (1261/1541)**
 
-| System | LLM-Judge | BLEU-1 | F1 |
-|--------|-----------|--------|-----|
-| **M-flow** | **76.5%** | **0.422** | **0.503** |
-| Mem0 Cloud (tested) | 40.4% | 0.186 | 0.196 |
-| Mem0 (published) | 66.9% | — | — |
-
-Testing methodology aligns with Mem0's approach while accommodating architectural differences between systems. Both M-flow and Mem0 Cloud were tested using the same evaluation framework.
+Dataset: LoCoMo-10 (10 conversations, 1541 evaluated questions)
 
 ### Per-Category
 
-| Category | Description | M-flow | Mem0 Cloud (tested) | Mem0 (published) |
-|----------|------------|--------|---------------------|------------------|
-| 1 | Single-hop (factual) | 68.5% | 44.7% | 67.1% |
-| 2 | Temporal | 78.8% | 7.5% | 55.5% |
-| 3 | Multi-hop (reasoning) | 48.0% | 39.6% | 51.1% |
-| 4 | Open-domain (event detail) | 81.5% | 44.4% | 72.9% |
+| Cat | Type | Correct | Total | Score |
+|:---:|------------|:-------:|:-----:|:-----:|
+| 4 | Single-hop | 737 | 841 | 87.6% |
+| 2 | Temporal | 255 | 321 | 79.4% |
+| 1 | Multi-hop | 212 | 282 | 75.2% |
+| 3 | Open-domain | 56 | 96 | 58.3% |
+
+> **Category mapping**: Numbers follow the dataset (`locomo10.json`), NOT the paper's text ordering. See `config/category_mapping.json` for details and source (snap-research/locomo Issue #27).
 
 ### Per-Conversation
 
-| Conv | Speakers | Questions | M-flow | Mem0 Cloud |
-|------|----------|-----------|--------|------------|
-| 0 | Caroline ↔ Melanie | 152 | 74.2% | 36.8% |
-| 1 | Jon ↔ Gina | 81 | 75.0% | 38.3% |
-| 2 | John ↔ Maria | 152 | 74.8% | 26.3% |
-| 3 | Joanna ↔ Nate | 199 | 76.9% | 36.2% |
-| 4 | Tim ↔ John | 178 | 75.5% | 44.9% |
-| 5 | Audrey ↔ Andrew | 123 | 72.5% | 45.5% |
-| 6 | James ↔ John | 150 | 82.5% | 42.7% |
-| 7 | Deborah ↔ Jolene | 191 | 78.1% | 46.1% |
-| 8 | Evan ↔ Sam | 156 | 76.7% | 45.5% |
-| 9 | Calvin ↔ Dave | 158 | 77.0% | — |
+| Conv | Speakers | Questions | Score |
+|:----:|----------|:---------:|:-----:|
+| 0 | Caroline ↔ Melanie | 152 | 83.6% |
+| 1 | Jon ↔ Gina | 82 | 90.2% |
+| 2 | John ↔ Maria | 152 | 86.2% |
+| 3 | Joanna ↔ Nate | 199 | 78.9% |
+| 4 | Tim ↔ John | 178 | 77.5% |
+| 5 | Audrey ↔ Andrew | 123 | 79.7% |
+| 6 | James ↔ John | 150 | 88.7% |
+| 7 | Deborah ↔ Jolene | 191 | 80.6% |
+| 8 | Evan ↔ Sam | 156 | 75.6% |
+| 9 | Calvin ↔ Dave | 158 | 82.9% |
 
-Conv 9 for Mem0 Cloud was not completed due to an API error during testing.
+Conv 8 was run 5 times to measure variance: mean 75.1%, std 0.9%, range 73.7%-76.3%. See `results/conv8_variance/`.
 
-### Reference
+## System Configuration
 
-Mem0 published data from [Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory](https://huggingface.co/papers/2504.19413).
+| Component | Value |
+|-----------|-------|
+| M-flow version | 0.3.2-dev |
+| LLM (ingestion) | gpt-5-nano |
+| LLM (answer) | gpt-5-mini (temperature=1, not configurable) |
+| LLM (judge) | gpt-4o-mini (temperature=0) |
+| Embedding | text-embedding-3-small (1536 dim) |
+| Retrieval top-k | 10 |
+| Precise mode | enabled |
+| Episodic routing | enabled |
+| Graph DB | KuzuDB |
+| Vector DB | LanceDB |
 
-## Reproduce
+Full configuration: `config/system_config.json`
+
+## Evaluation Methodology
+
+- **Judge**: LLM-as-Judge using Mem0's published ACCURACY_PROMPT (generous grading)
+- **Metrics**: LLM-Judge (primary), BLEU-1, F1
+- **Category 5** (Adversarial): Excluded per standard methodology (no gold answers)
+
+See `METHODOLOGY.md` for full details including timeout handling, Kuzu lock issue, and script adaptations.
+
+## Bug Fix Applied
+
+M-flow 0.3.2 has a bug in `phase0a.py` where the `config` variable is not passed to `_task_generate_facets()`, causing all Episode summarization to fall back to raw text truncation. This was fixed before ingestion. See `fixes/` for the patch and details.
+
+## Reproduction
 
 ### Prerequisites
+- M-flow 0.3.2 with `phase0a_config_fix.patch` applied
+- Docker
+- OpenAI API key (for gpt-5-mini answer generation and gpt-4o-mini judging)
+- `locomo10.json` dataset (see `data/DATA_SOURCE.md`)
 
-- M-Flow installed (`pip install -e .` from the M-Flow repo root)
-- `LLM_API_KEY` and `OPENAI_API_KEY` environment variables set
-- For Mem0 testing: `MEM0_API_KEY` environment variable set
-- Dataset: `locomo10.json` — the LoCoMo-10 conversation dataset
+### Steps
+1. Deploy M-flow Docker with fix applied
+2. Ingest using `scripts_original/run_ingest_batched.py --no-prune --force`
+3. **Stop the M-flow API server** (Kuzu file lock — critical!)
+4. Run search: `scripts/search_aligned.py --top-k 10` (one conv at a time via `docker run`)
+5. Fix any timeout errors (retry with same prompt)
+6. Evaluate: `scripts/evaluate_aligned.py --model gpt-4o-mini`
 
-### Obtaining the Dataset
+See `METHODOLOGY.md` for detailed instructions.
 
-The LoCoMo-10 dataset (`locomo10.json`) is from the [LoCoMo benchmark](https://github.com/snap-stanford/locomo). To obtain it:
+## File Structure
 
-1. Visit the [LoCoMo GitHub repository](https://github.com/snap-stanford/locomo)
-2. Download the dataset following their instructions
-3. Place it at `dataset/locomo10.json` relative to the benchmark directory
-
-### M-flow: One-click
-
-```bash
-cd benchmarks/locomo
-bash run_benchmark.sh
+```
+├── README.md                    # This file
+├── METHODOLOGY.md               # Detailed methodology
+├── config/
+│   ├── system_config.json       # Full system configuration
+│   └── category_mapping.json    # Correct category labels (with source)
+├── scripts/                     # Adapted scripts for M-flow 0.3.2
+│   ├── search_aligned.py        # 3 SDK adaptations (see CHANGES.md)
+│   ├── evaluate_aligned.py      # Unmodified
+│   ├── metrics.py               # Unmodified
+│   ├── prompts.py               # Unmodified
+│   └── CHANGES.md               # Adaptation details
+├── scripts_original/            # Original benchmark scripts (unmodified)
+├── results/
+│   ├── FINAL_SUMMARY.json       # Authoritative summary with correct labels
+│   ├── authoritative/           # 10 FULL_REPORT files (14 fields each)
+│   ├── conv8_variance/          # 5-run variance test data
+│   └── raw_data/                # All intermediate files preserved
+├── fixes/
+│   ├── phase0a_config_fix.patch # Config bug fix
+│   └── FIX_NOTES.md             # Fix description
+└── data/
+    └── DATA_SOURCE.md           # Dataset download instructions
 ```
 
-Total time: ~4 hours (ingest ~2.5h, search ~1h, eval ~30min).
+## Comparisons
 
-### M-flow: Step by step
+| System | Score | Answer LLM | Judge LLM | Top-K |
+|--------|:-----:|------------|-----------|:-----:|
+| **M-flow 0.3.2** | **81.8%** | gpt-5-mini | gpt-4o-mini | 10 |
+| M-flow (previous) | 76.5% | gpt-4o | gpt-4o-mini | 10 |
+| Zep Cloud (20e+20n) | 78.4% | gpt-5-mini | gpt-4o-mini | 40 |
+| Zep Cloud (7e+3n) | 73.4% | gpt-5-mini | gpt-4o-mini | 10 |
+| Mem0 (published) | 67.1% | — | — | 30×2 |
+| Mem0ᵍ (published) | 68.5% | — | — | 30×2 |
 
-```bash
-cd benchmarks/locomo
-
-# 1. Ingest (all 10 conversations, ~2.5 hours)
-python run_ingest_batched.py --data dataset/locomo10.json
-
-# 2. Stop API server if running (Kuzu file lock)
-# 3. Search + Answer (~1 hour)
-python search_aligned.py \
-  --data-path dataset/locomo10.json \
-  --output-path ./results/mflow_search.json \
-  --top-k 10
-
-# 4. Evaluate (~30 minutes)
-python evaluate_aligned.py \
-  --input-file ./results/mflow_search.json \
-  --output-file ./results/mflow_eval.json
-```
-
-## Methodology
-
-### Dataset
-
-LoCoMo-10: 10 multi-session conversations between two speakers, totaling 1986 questions. Category 5 (adversarial) is excluded per standard methodology, leaving 1540 evaluated questions across 4 categories.
-
-### Evaluation
-
-- **LLM-Judge**: Binary CORRECT/WRONG using Mem0's published ACCURACY_PROMPT
-- **BLEU-1**: Unigram precision with smoothing (aligned with Mem0 implementation)
-- **F1**: Token-level precision/recall (aligned with Mem0 implementation)
-
-### M-flow Configuration
-
-- Ingestion: per-session serial ingest with Episode Routing enabled
-- Retrieval: EpisodicRetriever (vector search + graph projection + bundle scoring)
-- top-k: 10
-
-### Mem0 Cloud Configuration
-
-Mem0 was tested using their published evaluation code from [mem0ai/mem0 `/evaluation`](https://github.com/mem0ai/mem0/tree/main/evaluation), with the following configuration aligned for fair comparison:
-
-| Parameter | Value | Notes |
-|-----------|-------|-------|
-| SDK | mem0ai 1.0.7 | Latest at time of testing |
-| Ingestion API | `MemoryClient.add()` | `version="v2"`, `infer=True` |
-| Ingestion mode | Per-speaker, dual-thread | As per Mem0's `evaluation/src/memzero/add.py` |
-| Custom instructions | Enabled | Set via `client.project.update(custom_instructions=...)` |
-| Batch size | 2 messages per API call | As per Mem0's default |
-| Retrieval API | `MemoryClient.search()` | `filters={"user_id": ...}` |
-| Retrieval mode | Per-speaker (2 searches per question) | Speaker A + Speaker B searched separately |
-| top-k | 10 per speaker | Up to 20 memories total per question |
-| Embedding | Mem0 Cloud default | Not configurable via API |
-| Answer prompt | Mem0's published `ANSWER_PROMPT` | Dual-speaker memories format |
-| Judge prompt | Mem0's published `ACCURACY_PROMPT` | Same as M-flow evaluation |
-| Judge LLM | gpt-4o-mini | Same as M-flow evaluation |
-| Temperature | 0.0 | Deterministic output |
+Note: Different systems use different answer LLMs, retrieval strategies, and context sizes. Direct comparison requires careful consideration of these factors.

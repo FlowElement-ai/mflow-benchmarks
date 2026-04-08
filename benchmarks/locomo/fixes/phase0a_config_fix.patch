@@ -1,0 +1,15 @@
+--- a/m_flow/memory/episodic/episode_builder/phase0a.py
++++ b/m_flow/memory/episodic/episode_builder/phase0a.py
+@@ -224,6 +224,7 @@ async def _task_generate_facets(
+     enable_procedural_routing: bool,
+     content_routing_disabled: bool = False,
++    config: Any = None,
+ ) -> Tuple["EpisodicWriteDraft", List[Dict[str, Any]]]:
+     """
+     Generate facets via summarize_by_event.
+@@ -523,6 +524,7 @@ async def execute_phase0a(ctx: EpisodeContext) -> Phase0AResult:
+                 enable_procedural_routing=ctx.config.enable_procedural_routing,
+                 content_routing_disabled=ctx.config.content_routing_disabled,
++                config=ctx.config,
+             ),
+             _task_prepare_matcher(
