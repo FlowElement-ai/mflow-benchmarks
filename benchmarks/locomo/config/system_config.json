@@ -32,7 +32,7 @@
   },
   "ingestion": {
     "precise_mode": true,
-    "episodic_routing": true,
+    "episodic_routing": false,
     "batching": "3-3-4 (3 parallel workers per batch)",
     "total_ingestion_time": "10h 39m"
   },

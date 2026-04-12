@@ -17,7 +17,7 @@ API ingest         Episode memories    from memories
 - **Script**: `scripts_original/run_ingest_batched.py`
 - **Strategy**: 3-3-4 batching (3 parallel workers per batch)
 - **Parameters**: `--no-prune --force`
-- **Episode Routing**: enabled (`enable_episode_routing: True` in script payload)
+- **Episode Routing**: disabled (`enable_episode_routing: False` in script payload)
 - **Precise Mode**: enabled (`precise_mode: True` in script payload). This is **required** to reproduce the benchmark scores — without it, summarization uses lossy compression and scores drop significantly.
 - **Total time**: 10h 39m (272 sessions across 10 conversations)
 

@@ -434,7 +434,7 @@ def start_ingest(
         "dataset_name": dataset_name,
         "enable_content_routing": True,
         "content_type": "dialog",  # LOCOMO is dialog data; set explicitly
-        "enable_episode_routing": True,
+        "enable_episode_routing": False,
         "precise_mode": True,  # Zero-loss summarization — required to reproduce benchmark scores
         "run_in_background": True,
         # Multiple ingests per dataset (one per session): avoid incremental/cache treating later batches as already done

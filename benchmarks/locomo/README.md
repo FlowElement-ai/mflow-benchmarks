@@ -45,7 +45,7 @@ Conv 8 was run 5 times to measure variance: mean 75.1%, std 0.9%, range 73.7%-76
 | Embedding | text-embedding-3-small (1536 dim) |
 | Retrieval top-k | 10 |
 | Precise mode | enabled |
-| Episodic routing | enabled |
+| Episodic routing | disabled |
 | Graph DB | KuzuDB |
 | Vector DB | LanceDB |
 
