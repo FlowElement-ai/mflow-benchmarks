@@ -1,0 +1,84 @@
+# Mem0 LongMemEval Benchmark Configuration
+#
+# All evaluation parameters used in this benchmark.
+# These settings are aligned with the MFlow LongMemEval benchmark
+# to ensure fair cross-engine comparison.
+
+# ============================================================================
+# Dataset
+# ============================================================================
+dataset:
+  data_path: "data/longmemeval_oracle.json"
+  total_questions: 500
+
+# ============================================================================
+# Mem0 Ingestion
+# ============================================================================
+mem0:
+  # Each question gets an isolated user_id: lme_{question_id}
+  user_id_prefix: "lme_"
+
+  ingestion:
+    # Delay between sessions to respect API rate limits (seconds)
+    session_delay: 2.0
+
+    # mem0 add() is always async; wait for backend processing before eval
+    processing_wait: 120
+
+# ============================================================================
+# Retrieval
+# ============================================================================
+retrieval:
+  # Number of memories to retrieve per question
+  top_k: 10
+
+# ============================================================================
+# Evaluation
+# ============================================================================
+evaluation:
+  answer_model: "gpt-5-mini"
+  judge_model: "gpt-4o-mini"
+  max_completion_tokens: 2048   # reasoning models need higher token budget
+  temperature: null              # gpt-5-mini does not support temperature
+  api_delay: 0.5
+
+# ============================================================================
+# Metrics
+# ============================================================================
+metrics:
+  bleu:
+    weights: [1, 0, 0, 0]    # BLEU-1 only
+    smoothing: "method1"      # nltk SmoothingFunction.method1
+  f1:
+    lowercase: true
+    remove_punctuation: true
+
+# ============================================================================
+# Prompts (identical to MFlow benchmark)
+# ============================================================================
+prompts:
+  answer: |
+    You are an intelligent memory assistant. Answer the question based on the retrieved memories.
+
+    # INSTRUCTIONS:
+    1. Carefully analyze all provided memories
+    2. Pay attention to timestamps to determine temporal relationships
+    3. If memories contain contradictory information, prioritize the most recent
+    4. Answer should be concise (less than 6 words)
+
+    # Retrieved Memories:
+    {memories}
+
+    # Question: {question}
+
+    Answer:
+
+  judge: |
+    Label the answer as 'CORRECT' or 'WRONG'.
+
+    Question: {question}
+    Gold answer: {gold_answer}
+    Generated answer: {generated_answer}
+
+    Be generous: if the answer captures the same meaning or time period, mark CORRECT.
+    Return JSON: {"label": "CORRECT"} or {"label": "WRONG"}

@@ -1,0 +1,24 @@
+{
+  "engine": "Supermemory Cloud",
+  "dataset": "LongMemEval Oracle (first 100)",
+  "answer_model": "gpt-5-mini",
+  "judge_model": "gpt-4o-mini",
+  "retrieval_top_k": 10,
+  "total_questions": 100,
+  "correct": 74,
+  "accuracy_pct": 74.0,
+  "bleu1_avg": 0.2802,
+  "f1_avg": 0.3884,
+  "by_type": {
+    "multi-session": {
+      "correct": 27,
+      "total": 40,
+      "accuracy_pct": 67.5
+    },
+    "temporal-reasoning": {
+      "correct": 47,
+      "total": 60,
+      "accuracy_pct": 78.3
+    }
+  }
+}

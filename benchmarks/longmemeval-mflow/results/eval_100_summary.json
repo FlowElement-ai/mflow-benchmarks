@@ -1,0 +1,32 @@
+{
+  "engine": "mflow",
+  "mflow_version": "0.3.2",
+  "dataset": "LongMemEval Oracle (first 100 questions)",
+  "precise_mode": true,
+  "answer_model": "gpt-5-mini",
+  "judge_model": "gpt-4o-mini",
+  "llm_model_ingestion": "gpt-5-nano",
+  "embedding_model": "text-embedding-3-small",
+  "embedding_dimensions": 1536,
+  "total_questions": 100,
+  "llm_judge_accuracy": 0.89,
+  "llm_judge_correct": 89,
+  "avg_bleu1": 0.3046,
+  "avg_f1": 0.4397,
+  "by_question_type": {
+    "temporal-reasoning": {
+      "total": 60,
+      "correct": 56,
+      "accuracy": 0.9333,
+      "avg_bleu": 0.3835,
+      "avg_f1": 0.5426
+    },
+    "multi-session": {
+      "total": 40,
+      "correct": 33,
+      "accuracy": 0.825,
+      "avg_bleu": 0.1862,
+      "avg_f1": 0.2852
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "edges_limit": 7,
+  "nodes_limit": 3,
+  "edges_reranker": "cross_encoder",
+  "nodes_reranker": "rrf",
+  "query_max_len": 255,
+
+  "response_model": "gpt-5-mini",
+  "response_temperature": null,
+  "judge_model": "gpt-4o-mini",
+  "judge_temperature": 0,
+
+  "zep_base_url": "https://api.getzep.com/api/v2",
+  "user_prefix": "lme_oracle_user_",
+  "session_prefix": "lme_oracle_session_",
+
+  "dataset_path": "data/longmemeval_oracle.json",
+  "num_questions": 500,
+  "ingest_content_max_len": 4096,
+  "eval_batch_size": 2,
+  "zep_timeout_s": 120.0
+}

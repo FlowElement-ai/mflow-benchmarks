@@ -1,0 +1,35 @@
+{
+  "benchmark": "LongMemEval",
+  "dataset_variant": "oracle",
+  "memory_system": "Zep Cloud",
+  "timestamp": "2026-04-08T17:54:14.667396+00:00",
+  "config": {
+    "edges_limit": 7,
+    "nodes_limit": 3,
+    "top_k_total": 10,
+    "edges_reranker": "cross_encoder",
+    "nodes_reranker": "rrf",
+    "response_model": "gpt-5-mini",
+    "response_temperature": null,
+    "judge_model": "gpt-4o-mini",
+    "judge_temperature": 0,
+    "ingest_content_max_len": 4096
+  },
+  "results": {
+    "overall_accuracy": 0.61,
+    "correct": 61,
+    "total": 100,
+    "by_question_type": {
+      "multi-session": {
+        "correct": 12,
+        "total": 40,
+        "accuracy": 0.3
+      },
+      "temporal-reasoning": {
+        "correct": 49,
+        "total": 60,
+        "accuracy": 0.8167
+      }
+    }
+  }
+}

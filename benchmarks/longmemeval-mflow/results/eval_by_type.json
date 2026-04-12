@@ -1,0 +1,16 @@
+{
+  "temporal-reasoning": {
+    "total": 60,
+    "correct": 56,
+    "accuracy": 0.9333,
+    "avg_bleu": 0.3835,
+    "avg_f1": 0.5426
+  },
+  "multi-session": {
+    "total": 40,
+    "correct": 33,
+    "accuracy": 0.825,
+    "avg_bleu": 0.1862,
+    "avg_f1": 0.2852
+  }
+}

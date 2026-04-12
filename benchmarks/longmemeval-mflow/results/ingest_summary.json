@@ -1,0 +1,8 @@
+{
+  "total_questions": 100,
+  "success": 100,
+  "failed": 0,
+  "precise_mode": true,
+  "avg_time_per_question_s": 1273,
+  "total_time_s": 127308
+}

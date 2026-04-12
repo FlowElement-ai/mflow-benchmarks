@@ -1,0 +1,33 @@
+{
+  "engine": "supermemory",
+  "engine_api": "https://api.supermemory.ai",
+  "dataset": "LongMemEval Oracle",
+  "dataset_size": 500,
+  "ingestion": {
+    "format": "per-session documents",
+    "text_format": "[Session Date: {date}]\n\nUSER: ...\n\nASSISTANT: ...",
+    "isolation": "containerTag = lme_{question_id}",
+    "retry_on_429": true,
+    "retry_max": 8,
+    "retry_base_delay_s": 10,
+    "poll_timeout_s": 300
+  },
+  "evaluation": {
+    "answer_model": "gpt-5-mini",
+    "judge_model": "gpt-4o-mini",
+    "retrieval_top_k": 10,
+    "retrieval_mode": "hybrid",
+    "retrieval_threshold": 0.3,
+    "answer_prompt": "concise <6 words, memory-based",
+    "judge_prompt": "generous CORRECT/WRONG, JSON output",
+    "metrics": [
+      "LLM-Judge Accuracy",
+      "BLEU-1 (NLTK method1)",
+      "F1 (token-level)"
+    ]
+  },
+  "notes": {
+    "gpt-5-mini": "Reasoning model; does not support temperature=0 or max_tokens; uses max_completion_tokens internally",
+    "retrieval_post_collection": "Post-hoc retrieval collection showed 73% inconsistency with evaluation-time results due to Supermemory search API variability. Evaluation-time memories_count is authoritative."
+  }
+}
