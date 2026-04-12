@@ -2,9 +2,9 @@
 
 ## Results
 
-**Overall: 81.8% (1261/1541)**
+**Overall: 81.8% (1260/1540)**
 
-Dataset: LoCoMo-10 (10 conversations, 1541 evaluated questions)
+Dataset: LoCoMo-10 (10 conversations, 1540 evaluated questions)
 
 ### Per-Category
 

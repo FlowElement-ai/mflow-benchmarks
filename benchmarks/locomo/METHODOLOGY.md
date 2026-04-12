@@ -113,7 +113,7 @@ Timeout errors were retried using a separate script that calls gpt-5-mini with t
 | 7 | 0 | Clean run |
 | 8 | 0 | Run 5 selected (0 errors) |
 | 9 | 11 | Simplified retry prompt used |
-| **Total** | **19** | **1.2% of 1541 questions** |
+| **Total** | **19** | **1.2% of 1540 questions** |
 
 ### 6.5 Impact
 

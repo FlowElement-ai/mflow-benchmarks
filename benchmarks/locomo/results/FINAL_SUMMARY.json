@@ -23,8 +23,8 @@
     "episodic_routing": true
   },
   "overall": {
-    "questions_evaluated": 1541,
-    "correct": 1261,
+    "questions_evaluated": 1540,
+    "correct": 1260,
     "score_pct": 81.8
   },
   "per_category": {
