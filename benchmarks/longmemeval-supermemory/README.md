@@ -139,6 +139,7 @@ Each entry in `eval_500_per_question.json` contains:
 
 The LongMemEval dataset is subject to its original license. See the [LongMemEval paper](https://arxiv.org/abs/2407.15167) for details.
 
+
 ## Comparisons
 
 LongMemEval Oracle — First 100 Questions | Answer: gpt-5-mini | Judge: gpt-4o-mini | Top-K: 10
@@ -149,3 +150,4 @@ LongMemEval Oracle — First 100 Questions | Answer: gpt-5-mini | Judge: gpt-4o-
 | Supermemory Cloud | 74% | 78% | 68% |
 | Mem0 | 71% | 77% | 63% |
 | Zep Cloud | 61% | 82% | 30% |
+| Cognee | 57% | 67% | 43% |

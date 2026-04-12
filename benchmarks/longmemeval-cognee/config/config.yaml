@@ -1,0 +1,42 @@
+benchmark:
+  name: cognee_longmemeval_oracle
+  version: "1.0"
+  date: "2026-04-09"
+  dataset: longmemeval_oracle
+  dataset_source: "LongMemEval (ICLR 2025)"
+
+memory_system:
+  name: Cognee
+  version: "latest"
+  deployment: local-docker
+  embedding_model: openai/text-embedding-3-small
+  embedding_dimensions: 1536
+  chunk_size: 2000
+  chunk_strategy: sentence-aware
+  graph_db: kuzu
+  vector_db: lancedb
+  db_provider: sqlite
+
+models:
+  answer_model: gpt-5-mini
+  judge_model: gpt-4o-mini
+
+evaluation:
+  total_questions: 500
+  reported_questions: 100
+  top_k: 10
+  metrics:
+    - LLM-Judge Accuracy
+    - BLEU-1
+    - F1
+  prompts:
+    answer_prompt: "mflow-aligned (concise, <6 words)"
+    judge_prompt: "mflow-aligned (generous labeling)"
+
+results:
+  llm_accuracy: 0.5700
+  avg_bleu: 0.2394
+  avg_f1: 0.3292
+  per_type:
+    temporal-reasoning: 0.6667
+    multi-session: 0.4250

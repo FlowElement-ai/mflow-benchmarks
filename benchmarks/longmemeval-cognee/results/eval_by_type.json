@@ -1,0 +1,12 @@
+{
+  "temporal-reasoning": {
+    "correct": 40,
+    "total": 60,
+    "accuracy": 0.6667
+  },
+  "multi-session": {
+    "correct": 17,
+    "total": 40,
+    "accuracy": 0.425
+  }
+}

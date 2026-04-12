@@ -161,6 +161,7 @@ Each entry in `zep_oracle_100_detailed.json` contains:
 
 This benchmark script is provided for research and evaluation purposes. The LongMemEval dataset is subject to its original license. Zep Cloud usage is subject to Zep's terms of service.
 
+
 ## Comparisons
 
 LongMemEval Oracle — First 100 Questions | Answer: gpt-5-mini | Judge: gpt-4o-mini | Top-K: 10
@@ -171,3 +172,4 @@ LongMemEval Oracle — First 100 Questions | Answer: gpt-5-mini | Judge: gpt-4o-
 | Supermemory Cloud | 74% | 78% | 68% |
 | Mem0 | 71% | 77% | 63% |
 | Zep Cloud | 61% | 82% | 30% |
+| Cognee | 57% | 67% | 43% |

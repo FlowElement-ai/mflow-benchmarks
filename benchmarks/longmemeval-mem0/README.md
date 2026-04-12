@@ -211,6 +211,7 @@ If you use this benchmark, please cite the LongMemEval paper:
 
 This benchmark code is released under the [MIT License](LICENSE).
 
+
 ## Comparisons
 
 LongMemEval Oracle — First 100 Questions | Answer: gpt-5-mini | Judge: gpt-4o-mini | Top-K: 10
@@ -221,3 +222,4 @@ LongMemEval Oracle — First 100 Questions | Answer: gpt-5-mini | Judge: gpt-4o-
 | Supermemory Cloud | 74% | 78% | 68% |
 | Mem0 | 71% | 77% | 63% |
 | Zep Cloud | 61% | 82% | 30% |
+| Cognee | 57% | 67% | 43% |

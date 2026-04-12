@@ -133,6 +133,7 @@ See [docs/precise_mode.md](docs/precise_mode.md) for the design, implementation 
 - Current results cover 100/500 questions (temporal-reasoning + multi-session types)
 - The `retrieved_memories` field was collected post-evaluation; `memories_count` may differ slightly from evaluation-time count due to different counting methods
 
+
 ## Comparisons
 
 LongMemEval Oracle — First 100 Questions | Answer: gpt-5-mini | Judge: gpt-4o-mini | Top-K: 10
@@ -143,3 +144,4 @@ LongMemEval Oracle — First 100 Questions | Answer: gpt-5-mini | Judge: gpt-4o-
 | Supermemory Cloud | 74% | 78% | 68% |
 | Mem0 | 71% | 77% | 63% |
 | Zep Cloud | 61% | 82% | 30% |
+| Cognee | 57% | 67% | 43% |

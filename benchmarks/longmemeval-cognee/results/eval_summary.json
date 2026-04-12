@@ -1,0 +1,10 @@
+{
+  "engine": "cognee",
+  "total_questions": 100,
+  "correct": 57,
+  "llm_accuracy": 0.57,
+  "avg_bleu": 0.2394,
+  "avg_f1": 0.3292,
+  "answer_model": "gpt-5-mini",
+  "judge_model": "gpt-4o-mini"
+}
