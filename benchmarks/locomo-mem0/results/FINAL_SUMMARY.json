@@ -1,0 +1,489 @@
+{
+  "benchmark": "LocOMo-10",
+  "system": "Mem0 Platform API",
+  "overall": {
+    "total_questions": 1540,
+    "llm_judge_correct": 776,
+    "llm_judge_accuracy": 50.4,
+    "bleu1_avg": 0.2586,
+    "f1_avg": 0.3116
+  },
+  "per_category": {
+    "1": {
+      "type": "Single-hop",
+      "total_questions": 282,
+      "llm_judge_correct": 167,
+      "llm_judge_accuracy": 59.2,
+      "bleu1_avg": 0.2409,
+      "f1_avg": 0.3388
+    },
+    "2": {
+      "type": "Temporal",
+      "total_questions": 321,
+      "llm_judge_correct": 41,
+      "llm_judge_accuracy": 12.8,
+      "bleu1_avg": 0.1642,
+      "f1_avg": 0.1353
+    },
+    "3": {
+      "type": "Multi-hop",
+      "total_questions": 96,
+      "llm_judge_correct": 43,
+      "llm_judge_accuracy": 44.8,
+      "bleu1_avg": 0.1672,
+      "f1_avg": 0.2294
+    },
+    "4": {
+      "type": "Open-domain",
+      "total_questions": 841,
+      "llm_judge_correct": 525,
+      "llm_judge_accuracy": 62.4,
+      "bleu1_avg": 0.311,
+      "f1_avg": 0.3792
+    }
+  },
+  "per_conversation": [
+    {
+      "conv_idx": 0,
+      "speakers": "Caroline <-> Melanie",
+      "total_questions": 152,
+      "llm_judge_correct": 84,
+      "llm_judge_accuracy": 55.3,
+      "bleu1_avg": 0.2439,
+      "f1_avg": 0.2965,
+      "note": "Run with run_conv0_eval.py (fewer recorded fields than conv1-9)"
+    },
+    {
+      "conv_idx": 1,
+      "speakers": "Jon <-> Gina",
+      "total_questions": 81,
+      "llm_judge_correct": 33,
+      "llm_judge_accuracy": 40.7,
+      "bleu1_avg": 0.2395,
+      "f1_avg": 0.256,
+      "avg_search_time_s": 2.319,
+      "avg_answer_time_s": 7.345,
+      "avg_answer_tokens": 3477.2,
+      "total_time_s": 852.0,
+      "per_category": {
+        "1": {
+          "type": "Single-hop",
+          "llm_judge": "7/11",
+          "llm_judge_pct": 63.6,
+          "bleu1": 0.1763,
+          "f1": 0.2551,
+          "count": 11
+        },
+        "2": {
+          "type": "Temporal",
+          "llm_judge": "2/26",
+          "llm_judge_pct": 7.7,
+          "bleu1": 0.1892,
+          "f1": 0.1038,
+          "count": 26
+        },
+        "4": {
+          "type": "Open-domain",
+          "llm_judge": "24/44",
+          "llm_judge_pct": 54.5,
+          "bleu1": 0.285,
+          "f1": 0.3461,
+          "count": 44
+        }
+      }
+    },
+    {
+      "conv_idx": 2,
+      "speakers": "John <-> Maria",
+      "total_questions": 152,
+      "llm_judge_correct": 81,
+      "llm_judge_accuracy": 53.3,
+      "bleu1_avg": 0.2804,
+      "f1_avg": 0.3497,
+      "avg_search_time_s": 2.238,
+      "avg_answer_time_s": 8.561,
+      "avg_answer_tokens": 3351.5,
+      "total_time_s": 1828.0,
+      "per_category": {
+        "1": {
+          "type": "Single-hop",
+          "llm_judge": "24/31",
+          "llm_judge_pct": 77.4,
+          "bleu1": 0.4237,
+          "f1": 0.4964,
+          "count": 31
+        },
+        "2": {
+          "type": "Temporal",
+          "llm_judge": "3/27",
+          "llm_judge_pct": 11.1,
+          "bleu1": 0.1416,
+          "f1": 0.1749,
+          "count": 27
+        },
+        "3": {
+          "type": "Multi-hop",
+          "llm_judge": "5/8",
+          "llm_judge_pct": 62.5,
+          "bleu1": 0.1981,
+          "f1": 0.3467,
+          "count": 8
+        },
+        "4": {
+          "type": "Open-domain",
+          "llm_judge": "49/86",
+          "llm_judge_pct": 57.0,
+          "bleu1": 0.28,
+          "f1": 0.3519,
+          "count": 86
+        }
+      }
+    },
+    {
+      "conv_idx": 3,
+      "speakers": "Joanna <-> Nate",
+      "total_questions": 199,
+      "llm_judge_correct": 89,
+      "llm_judge_accuracy": 44.7,
+      "bleu1_avg": 0.2512,
+      "f1_avg": 0.285,
+      "avg_search_time_s": 2.015,
+      "avg_answer_time_s": 9.47,
+      "avg_answer_tokens": 3225.2,
+      "total_time_s": 2487.7,
+      "per_category": {
+        "1": {
+          "type": "Single-hop",
+          "llm_judge": "17/37",
+          "llm_judge_pct": 45.9,
+          "bleu1": 0.201,
+          "f1": 0.3178,
+          "count": 37
+        },
+        "2": {
+          "type": "Temporal",
+          "llm_judge": "2/40",
+          "llm_judge_pct": 5.0,
+          "bleu1": 0.11,
+          "f1": 0.0229,
+          "count": 40
+        },
+        "3": {
+          "type": "Multi-hop",
+          "llm_judge": "4/11",
+          "llm_judge_pct": 36.4,
+          "bleu1": 0.047,
+          "f1": 0.103,
+          "count": 11
+        },
+        "4": {
+          "type": "Open-domain",
+          "llm_judge": "66/111",
+          "llm_judge_pct": 59.5,
+          "bleu1": 0.339,
+          "f1": 0.3866,
+          "count": 111
+        }
+      }
+    },
+    {
+      "conv_idx": 4,
+      "speakers": "Tim <-> John",
+      "total_questions": 178,
+      "llm_judge_correct": 96,
+      "llm_judge_accuracy": 53.9,
+      "bleu1_avg": 0.2628,
+      "f1_avg": 0.3371,
+      "avg_search_time_s": 1.924,
+      "avg_answer_time_s": 8.137,
+      "avg_answer_tokens": 3332.3,
+      "total_time_s": 1963.7,
+      "per_category": {
+        "1": {
+          "type": "Single-hop",
+          "llm_judge": "15/31",
+          "llm_judge_pct": 48.4,
+          "bleu1": 0.1308,
+          "f1": 0.2819,
+          "count": 31
+        },
+        "2": {
+          "type": "Temporal",
+          "llm_judge": "4/26",
+          "llm_judge_pct": 15.4,
+          "bleu1": 0.1534,
+          "f1": 0.1701,
+          "count": 26
+        },
+        "3": {
+          "type": "Multi-hop",
+          "llm_judge": "3/14",
+          "llm_judge_pct": 21.4,
+          "bleu1": 0.1046,
+          "f1": 0.1808,
+          "count": 14
+        },
+        "4": {
+          "type": "Open-domain",
+          "llm_judge": "74/107",
+          "llm_judge_pct": 69.2,
+          "bleu1": 0.3483,
+          "f1": 0.4141,
+          "count": 107
+        }
+      }
+    },
+    {
+      "conv_idx": 5,
+      "speakers": "Audrey <-> Andrew",
+      "total_questions": 123,
+      "llm_judge_correct": 70,
+      "llm_judge_accuracy": 56.9,
+      "bleu1_avg": 0.3124,
+      "f1_avg": 0.3758,
+      "avg_search_time_s": 1.916,
+      "avg_answer_time_s": 8.55,
+      "avg_answer_tokens": 3414.2,
+      "total_time_s": 1407.5,
+      "per_category": {
+        "1": {
+          "type": "Single-hop",
+          "llm_judge": "22/30",
+          "llm_judge_pct": 73.3,
+          "bleu1": 0.3267,
+          "f1": 0.4448,
+          "count": 30
+        },
+        "2": {
+          "type": "Temporal",
+          "llm_judge": "7/24",
+          "llm_judge_pct": 29.2,
+          "bleu1": 0.1673,
+          "f1": 0.1861,
+          "count": 24
+        },
+        "3": {
+          "type": "Multi-hop",
+          "llm_judge": "2/7",
+          "llm_judge_pct": 28.6,
+          "bleu1": 0.0768,
+          "f1": 0.1524,
+          "count": 7
+        },
+        "4": {
+          "type": "Open-domain",
+          "llm_judge": "39/62",
+          "llm_judge_pct": 62.9,
+          "bleu1": 0.3882,
+          "f1": 0.441,
+          "count": 62
+        }
+      }
+    },
+    {
+      "conv_idx": 6,
+      "speakers": "James <-> John",
+      "total_questions": 150,
+      "llm_judge_correct": 70,
+      "llm_judge_accuracy": 46.7,
+      "bleu1_avg": 0.2739,
+      "f1_avg": 0.3167,
+      "avg_search_time_s": 2.002,
+      "avg_answer_time_s": 7.535,
+      "avg_answer_tokens": 3094.2,
+      "total_time_s": 1560.1,
+      "per_category": {
+        "1": {
+          "type": "Single-hop",
+          "llm_judge": "10/20",
+          "llm_judge_pct": 50.0,
+          "bleu1": 0.2108,
+          "f1": 0.324,
+          "count": 20
+        },
+        "2": {
+          "type": "Temporal",
+          "llm_judge": "3/34",
+          "llm_judge_pct": 8.8,
+          "bleu1": 0.1494,
+          "f1": 0.0811,
+          "count": 34
+        },
+        "3": {
+          "type": "Multi-hop",
+          "llm_judge": "4/13",
+          "llm_judge_pct": 30.8,
+          "bleu1": 0.2144,
+          "f1": 0.1908,
+          "count": 13
+        },
+        "4": {
+          "type": "Open-domain",
+          "llm_judge": "53/83",
+          "llm_judge_pct": 63.9,
+          "bleu1": 0.3495,
+          "f1": 0.4311,
+          "count": 83
+        }
+      }
+    },
+    {
+      "conv_idx": 7,
+      "speakers": "Deborah <-> Jolene",
+      "total_questions": 191,
+      "llm_judge_correct": 96,
+      "llm_judge_accuracy": 50.3,
+      "bleu1_avg": 0.2209,
+      "f1_avg": 0.2881,
+      "avg_search_time_s": 2.016,
+      "avg_answer_time_s": 8.523,
+      "avg_answer_tokens": 3484.5,
+      "total_time_s": 2192.1,
+      "per_category": {
+        "1": {
+          "type": "Single-hop",
+          "llm_judge": "12/21",
+          "llm_judge_pct": 57.1,
+          "bleu1": 0.174,
+          "f1": 0.2848,
+          "count": 21
+        },
+        "2": {
+          "type": "Temporal",
+          "llm_judge": "9/42",
+          "llm_judge_pct": 21.4,
+          "bleu1": 0.2613,
+          "f1": 0.2408,
+          "count": 42
+        },
+        "3": {
+          "type": "Multi-hop",
+          "llm_judge": "7/10",
+          "llm_judge_pct": 70.0,
+          "bleu1": 0.3329,
+          "f1": 0.462,
+          "count": 10
+        },
+        "4": {
+          "type": "Open-domain",
+          "llm_judge": "68/118",
+          "llm_judge_pct": 57.6,
+          "bleu1": 0.2054,
+          "f1": 0.2908,
+          "count": 118
+        }
+      }
+    },
+    {
+      "conv_idx": 8,
+      "speakers": "Evan <-> Sam",
+      "total_questions": 156,
+      "llm_judge_correct": 74,
+      "llm_judge_accuracy": 47.4,
+      "bleu1_avg": 0.2508,
+      "f1_avg": 0.3067,
+      "avg_search_time_s": 1.91,
+      "avg_answer_time_s": 7.583,
+      "avg_answer_tokens": 3267.5,
+      "total_time_s": 1617.9,
+      "per_category": {
+        "1": {
+          "type": "Single-hop",
+          "llm_judge": "20/37",
+          "llm_judge_pct": 54.1,
+          "bleu1": 0.1782,
+          "f1": 0.2888,
+          "count": 37
+        },
+        "2": {
+          "type": "Temporal",
+          "llm_judge": "4/33",
+          "llm_judge_pct": 12.1,
+          "bleu1": 0.1933,
+          "f1": 0.154,
+          "count": 33
+        },
+        "3": {
+          "type": "Multi-hop",
+          "llm_judge": "4/13",
+          "llm_judge_pct": 30.8,
+          "bleu1": 0.1129,
+          "f1": 0.1723,
+          "count": 13
+        },
+        "4": {
+          "type": "Open-domain",
+          "llm_judge": "46/73",
+          "llm_judge_pct": 63.0,
+          "bleu1": 0.3382,
+          "f1": 0.4087,
+          "count": 73
+        }
+      }
+    },
+    {
+      "conv_idx": 9,
+      "speakers": "Calvin <-> Dave",
+      "total_questions": 158,
+      "llm_judge_correct": 83,
+      "llm_judge_accuracy": 52.5,
+      "bleu1_avg": 0.2631,
+      "f1_avg": 0.3018,
+      "avg_search_time_s": 5.977,
+      "avg_answer_time_s": 8.621,
+      "avg_answer_tokens": 3496.7,
+      "total_time_s": 2453.1,
+      "per_category": {
+        "1": {
+          "type": "Single-hop",
+          "llm_judge": "22/32",
+          "llm_judge_pct": 68.8,
+          "bleu1": 0.2965,
+          "f1": 0.3726,
+          "count": 32
+        },
+        "2": {
+          "type": "Temporal",
+          "llm_judge": "2/32",
+          "llm_judge_pct": 6.2,
+          "bleu1": 0.1746,
+          "f1": 0.1194,
+          "count": 32
+        },
+        "3": {
+          "type": "Multi-hop",
+          "llm_judge": "5/7",
+          "llm_judge_pct": 71.4,
+          "bleu1": 0.2699,
+          "f1": 0.3333,
+          "count": 7
+        },
+        "4": {
+          "type": "Open-domain",
+          "llm_judge": "54/87",
+          "llm_judge_pct": 62.1,
+          "bleu1": 0.2828,
+          "f1": 0.3402,
+          "count": 87
+        }
+      }
+    }
+  ],
+  "comparison": {
+    "mem0_paper_published": {
+      "overall_llm_judge": 66.9,
+      "cat1_single_hop": 67.1,
+      "cat2_temporal": 55.5,
+      "cat3_multi_hop": 51.1,
+      "cat4_open_domain": 72.9,
+      "source": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory (arXiv:2504.19413)"
+    },
+    "our_test": {
+      "overall_llm_judge": 50.4,
+      "cat1_single_hop": 59.2,
+      "cat2_temporal": 12.8,
+      "cat3_multi_hop": 44.8,
+      "cat4_open_domain": 62.4
+    }
+  }
+}

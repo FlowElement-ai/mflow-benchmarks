@@ -18,9 +18,9 @@ This repository contains three benchmark datasets and evaluation results:
 
 | System | LLM-Judge | BLEU-1 | F1 |
 |--------|-----------|--------|-----|
-| M-flow | 76.5% | 0.422 | 0.503 |
-| Mem0 Cloud (tested) | 40.4% | 0.186 | 0.196 |
-| Mem0 (published) | 66.9% | — | — |
+| M-flow | 81.8% | — | — |
+| Mem0 Cloud (published) | 66.9% | — | — |
+| Mem0 Cloud (tested) | 50.4% | 0.259 | 0.312 |
 
 ### LongMemEval (Long-term Memory QA)
 

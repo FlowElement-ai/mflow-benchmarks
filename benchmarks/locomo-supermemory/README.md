@@ -90,8 +90,9 @@ Including adversarial (Cat 5): 65.0% (1291/1986)
 | M-flow | 81.8% | gpt-5-mini | gpt-4o-mini | 10 |
 | Cognee Cloud | 79.4% | gpt-5-mini | gpt-4o-mini | 10 |
 | Zep Cloud (20e+20n) | 78.4% | gpt-5-mini | gpt-4o-mini | 40 |
-| Mem0ᵍ (published) | 68.5% | — | — | — |
-| Mem0 (published) | 67.1% | — | — | — |
+| Mem0ᵍ Cloud (published) | 68.5% | — | — | — |
+| Mem0 Cloud (published) | 67.1% | — | — | — |
+| Mem0 Cloud (tested) | 50.4% | gpt-5-mini | gpt-4o-mini | 30 |
 | **Supermemory** | **64.4%** | gpt-5-mini | gpt-4o-mini | 10 |
 
 Mem0 retrieval budget not disclosed in paper. Published scores from [Mem0 paper](https://arxiv.org/abs/2504.19413); answer/judge LLMs not disclosed.

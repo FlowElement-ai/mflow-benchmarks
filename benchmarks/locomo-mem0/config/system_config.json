@@ -1,0 +1,27 @@
+{
+  "benchmark": "LocOMo-10",
+  "dataset": "locomo10.json (10 conversations, 1986 total questions, 1540 evaluated excluding category 5)",
+  "dataset_source": "https://github.com/snap-research/LoCoMo",
+  "system_under_test": "Mem0 Platform API",
+  "mem0_sdk_version": "mem0ai v1.0.10",
+  "mem0_api": "https://api.mem0.ai (v2 endpoints)",
+  "answer_model": "gpt-5-mini",
+  "answer_temperature": "default (gpt-5-mini does not support temperature=0.0)",
+  "judge_model": "gpt-4o-mini",
+  "judge_temperature": 0.0,
+  "embedding_model": "text-embedding-3-small (Mem0 platform server-side default)",
+  "top_k": 30,
+  "search_api": "POST /v2/memories/search/ with filters={\"user_id\": \"<speaker>_<conv_idx>\"}",
+  "memory_model": "Per-speaker memories (speaker_a and speaker_b have independent user_ids)",
+  "search_strategy": "Dual search per question (search both speakers separately)",
+  "category_5_excluded": true,
+  "evaluation_metrics": ["LLM-Judge (CORRECT/WRONG)", "BLEU-1", "F1"],
+  "test_date": "2026-04-12 to 2026-04-13",
+  "test_environment": "macOS, Python 3.x",
+  "notes": {
+    "conv0": "Run with earlier script (run_conv0_eval.py). Records fewer fields (no memories, no evidence, no timing). Metrics are valid.",
+    "conv1_to_conv9": "Run with full script (run_conv_eval.py). Records all fields including retrieved memories, search/answer times, token counts, and raw judge output.",
+    "gpt5_mini_limitation": "gpt-5-mini does not support temperature=0.0; answers use default temperature=1, introducing non-determinism.",
+    "nltk_ssl_issue": "NLTK punkt tokenizer download failed due to SSL certificate issue on test machine. BLEU scores use fallback split() tokenization for conv0; conv1-9 also affected but impact is minimal."
+  }
+}
